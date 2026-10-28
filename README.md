@@ -41,6 +41,22 @@ Os resultados mostraram que o desempenho acadêmico não pode ser explicado por 
 
 Essas análises ajudam a compreender melhor o comportamento acadêmico dos estudantes, mas a base utilizada não possui informações como prazo das atividades, peso das avaliações ou prioridade das tarefas. Por isso, ela não é suficiente, sozinha, para representar o mecanismo de priorização do StudyTrack IA.
 
+## TED 03 — Modelagem preditiva e Machine Learning
+
+A TED 03 dá continuidade às análises anteriores com a classificação multiclasse de `grade`. O grupo confirmou o uso das 31 variáveis preditoras, divisão estratificada 80/20, validação cruzada com cinco partes e semente 42.
+
+O notebook [TED03_modelagem.ipynb](notebooks/TED03/TED03_modelagem.ipynb) apresenta:
+
+- contexto do projeto e justificativa metodológica;
+- divisão treino/teste, com o teste reservado para a etapa final;
+- tratamento misto das variáveis (16 nominais com One-Hot Encoding e 15 ordinais com códigos ordenados);
+- pipelines independentes para Regressão Logística, Árvore de Decisão e Random Forest;
+- comparação por F1-macro e acurácia na validação cruzada, com gráficos;
+- seção condicionada à escolha do grupo para avaliação final no teste e matriz de confusão;
+- roteiro de interpretação, limites, vieses e registro de autoria.
+
+**Status:** o notebook foi verificado tecnicamente, mas a seleção do classificador, a avaliação final e a redação dos resultados no Documento Técnico v3.0 dependem de conferência e aprovação do grupo. Não há conclusão de desempenho consolidada nesta versão.
+
 ## Estrutura do repositório
 
 ```text
@@ -55,8 +71,10 @@ StudyTrack_IA/
 │       └── dataset_modelagem.csv
 │
 ├── notebooks/
-│   └── TED02/
-│       └── TED02_limpeza_EDA.ipynb
+│   ├── TED02/
+│   │   └── TED02_limpeza_EDA.ipynb
+│   └── TED03/
+│       └── TED03_modelagem.ipynb
 │
 └── README.md
 ```
@@ -89,6 +107,10 @@ O arquivo `TED02_limpeza_EDA.ipynb` reúne os códigos utilizados para:
 - gerar gráficos;
 - analisar relações entre variáveis;
 - exportar as bases preparadas.
+
+### notebooks/TED03
+
+Contém o caderno técnico da TED 03, com preparação para modelagem, comparação dos três classificadores, validação cruzada e orientação para o teste final condicionado à decisão do grupo.
 
 ## Tecnologias utilizadas
 
