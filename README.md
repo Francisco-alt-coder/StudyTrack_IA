@@ -55,7 +55,9 @@ O notebook [TED03_modelagem.ipynb](notebooks/TED03/TED03_modelagem.ipynb) aprese
 - seção condicionada à escolha do grupo para avaliação final no teste e matriz de confusão;
 - roteiro de interpretação, limites, vieses e registro de autoria.
 
-**Status:** o notebook foi verificado tecnicamente, mas a seleção do classificador, a avaliação final e a redação dos resultados no Documento Técnico v3.0 dependem de conferência e aprovação do grupo. Não há conclusão de desempenho consolidada nesta versão.
+**Separação das entregas:** o notebook da TED 03 contém códigos, gráficos e verificações executáveis; o Documento Técnico v3.0 será um relatório acadêmico separado, acumulando e preservando as TEDs 01 e 02. O relatório não deve ser substituído pelo conteúdo do Colab.
+
+**Status:** o notebook foi verificado tecnicamente, mas a escolha do classificador, o teste final e as conclusões dependem da conferência do grupo. O Documento Técnico v3.0 ainda precisa ser atualizado a partir do arquivo editável da TED 02.
 
 ## Estrutura do repositório
 
