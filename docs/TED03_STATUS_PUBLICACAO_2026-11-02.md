@@ -1,23 +1,28 @@
-# TED 03 — estado técnico após a publicação do notebook executado (02/11/2026)
+# TED 03 — situação técnica e documental em 02/11/2026
 
-**Projeto:** StudyTrack IA | **Disciplina:** Big Data e Ciências de Dados (UNIBALSAS).
+**Projeto:** StudyTrack IA | **Disciplina:** Big Data e Ciências de Dados, UNIBALSAS.
 
-## Evidências verificadas
-- Base preparada: `data/processed/dataset_modelagem.csv` (145 registros, 32 colunas; 31 preditoras e alvo `grade`, oito classes; Git blob `7859d534e981355b852a520b5e745aac121f9489`).
-- Divisão treino/teste: 116/29, estratificada, `random_state=42`.
-- Validação: cinco partes com `StratifiedKFold`, transformações dentro de pipelines (One-Hot para 16 nominais; 15 ordinais preservadas; padronização na Regressão Logística).
-- Critério técnico pré-especificado: maior F1-macro médio de validação cruzada.
-- Melhor pontuação por esse critério: Random Forest, F1-macro CV **0,227408**.
-- Teste final reservado: F1-macro **0,288095**, acurácia **0,379310** (**11/29**); matriz de confusão e relatório por classe na documentação técnica.
-- Reprodução **local**: notebook auxiliar com 12 células executadas e saídas/gráficos salvos, incluído na branch em `notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb`. O notebook original `TED03_modelagem.ipynb` foi preservado.
+## Materiais existentes e verificados
 
-## Aprovação e limitações
-Em 02/11/2026 o estudante comunicou que a equipe considera sua avaliação aprovada **desde que** as regras do professor e a autoria dos integrantes tenham sido respeitadas. Essa manifestação foi registrada como condicionada, sem inferir ata formal, aprovação individual documentada ou validação do professor.
+- **Base preparada:** `data/processed/dataset_modelagem.csv`, 145 registros, 32 colunas; 31 preditoras, alvo `grade`, oito classes. Git blob `7859d534e981355b852a520b5e745aac121f9489`.
+- **Protocolo:** divisão estratificada 116/29, semente 42, One-Hot para 16 nominais e 15 ordinais preservadas (com padronização na Regressão Logística); `StratifiedKFold` de cinco partes; F1-macro principal, acurácia complementar; pipelines para prevenir vazamento.
+- **Comparação técnica:** Regressão Logística, Árvore de Decisão e Random Forest. Maior F1-macro médio na validação cruzada: Random Forest, **0,227408**.
+- **Teste final reservado:** F1-macro **0,288095**, acurácia **0,379310**, **11/29**. Matriz de confusão e relatório por classe publicados.
+- **Notebook de reprodução local:** `notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb`, com **12 células de código executadas** e **17 saídas**, incluindo gráficos e matriz.
+- **Documento Técnico v3.0 acumulativo:** agora publicado em `docs/TED03_Documento_Tecnico_v3_Consolidado.md`, abrangendo as etapas anteriores, protocolo, métricas, limitações e relação com o MVP.
+- **Declaração de IA atualizada:** `docs/TED03_Declaracao_Uso_IA.md`, coerente com as 12 células do notebook publicado.
+- **TEDs anteriores:** PDFs originais permanecem na raiz do repositório, sem substituição.
 
-**Não foi comprovada execução do notebook no Google Colab oficial.** A execução local não deve ser identificada como execução Colab.
+## Limites e condições acadêmicas
 
-O **Documento Técnico v3.0 acumulativo definitivo** ainda exige integrar os resultados às seções correspondentes, preservando o histórico e as evidências das TEDs 01 e 02; versões antigas ainda descrevem equivocadamente o teste como não realizado. Adendo complementar foi preparado fora do repositório. A declaração de uso de IA deve explicitar o suporte efetivamente prestado, incluindo reprodução técnica e elaboração de apoio documental.
+A execução disponível é **local**. Não há comprovação de execução do mesmo notebook no Google Colab oficial; o enunciado apresentado não determina o Colab como ambiente obrigatório. A documentação e o notebook foram organizados para facilitar reprodução e inspeção.
 
-Este resultado é **classificação retrospectiva**: desempenho baixo no teste, risco de sobreajuste e ausência de validação externa. Não comprova previsão antecipada nem utilidade operacional no MVP.
+A escolha do Random Forest foi feita por regra técnica pré-definida e **não** representa, por si só, ata ou deliberação formal dos integrantes. A equipe deve validar as interpretações, a autoria, o histórico efetivo de IA e o documento a ser submetido.
 
-**GitHub:** PR #1 permanece em rascunho e sem merge na `main`.
+O modelo apresentou desempenho limitado, especialmente nas classes Fail, DC, CB e BB. Não houve validação externa, auditoria de equidade ou aplicação no MVP. **Não é prova de previsão antecipada nem do algoritmo de priorização.**
+
+## Publicação Git
+
+O Pull Request [nº 1](https://github.com/Francisco-alt-coder/StudyTrack_IA/pull/1) permanece aberto em **rascunho**, sem merge na `main`. Para submissão antes de eventual merge, use diretamente [a branch da TED 03](https://github.com/Francisco-alt-coder/StudyTrack_IA/tree/ted03/revisao-final-verificavel-2026-11-02), verificando a acessibilidade e a presença da documentação consolidada.
+
+Atualização documental realizada para corrigir referências antigas que ainda tratavam o teste e a consolidação como pendentes.
