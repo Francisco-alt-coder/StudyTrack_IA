@@ -107,6 +107,25 @@ Esses resultados são limitados pelo tamanho da amostra e pelo desequilíbrio en
 
 O [Pull Request nº 1](https://github.com/Francisco-alt-coder/StudyTrack_IA/pull/1) foi incorporado à branch principal (`main`) em 02/11/2026. O Documento Técnico final de 21 páginas e a declaração textual da TED 03 estão publicados. A execução registrada do notebook é local, não uma execução atestada no Colab. A submissão do link do repositório no Portal do Aluno deve ser feita pelos responsáveis.
 
+## Conferência dos requisitos para envio da TED 03
+
+O enunciado da disciplina solicita o Documento Técnico v3.0 acumulativo, os códigos, os dados necessários à reprodução e a submissão pelo link do repositório. Os arquivos da entrega estão organizados na branch principal (`main`):
+
+| Requisito | Localização no repositório |
+| --- | --- |
+| Documento Técnico v3.0 para entrega | [`docs/TED03.pdf`](docs/TED03.pdf) |
+| Continuidade documental das TEDs 01 e 02 | [`docs/TED01.pdf`](docs/TED01.pdf) e [`docs/TED02.pdf`](docs/TED02.pdf) |
+| Versão acumulativa complementar | [`docs/TED03_Documento_Tecnico_v3_Consolidado.md`](docs/TED03_Documento_Tecnico_v3_Consolidado.md) |
+| Códigos da modelagem e avaliação | [`notebooks/TED03/TED03_modelagem.ipynb`](notebooks/TED03/TED03_modelagem.ipynb) |
+| Notebook com saídas registradas | [`notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb`](notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb) |
+| Base original e tratada | [`data/raw/`](data/raw/) e [`data/processed/`](data/processed/) |
+| Métricas, matriz de confusão e interpretação técnica | [`docs/TED03_RESULTADOS_TECNICOS_2026-11-02.md`](docs/TED03_RESULTADOS_TECNICOS_2026-11-02.md) e Documento Técnico |
+| Declaração de uso de IA | [`docs/Declaracao_Uso_IA_TED03.pdf`](docs/Declaracao_Uso_IA_TED03.pdf) e versão `.md` |
+
+O PR nº 1 foi integrado à `main` em 02/11/2026. O repositório é público e o endereço para informar no Portal do Aluno é **https://github.com/Francisco-alt-coder/StudyTrack_IA**.
+
+**Limites da conferência:** os resultados publicados correspondem à reprodução local registrada, sem comprovação de execução no Google Colab. O enunciado encaminhado não determina execução obrigatória no Colab. A declaração de IA disponível é uma reprodução textual do documento fornecido, e não substitui eventuais capturas ou links de histórico que venham a ser exigidos em orientações complementares. O envio no Portal do Aluno não é realizado pelo repositório.
+
 ## Continuidade e histórico
 
 Este mesmo repositório reúne as TEDs anteriores e a TED 03. Os dados originais, as versões processadas, os notebooks e os documentos permanecem separados para facilitar reprodução e conferência. Antes de apresentar resultados, confira a versão do notebook, as saídas e o documento técnico correspondente.
