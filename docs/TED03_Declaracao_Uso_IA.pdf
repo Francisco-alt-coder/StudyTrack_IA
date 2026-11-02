@@ -1,0 +1,108 @@
+%PDF-1.4
+%ASCII
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 2 /Kids [5 0 R 7 0 R] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 5540 >>
+stream
+0.11 0.27 0.45 rg BT /F2 9 Tf 1 0 0 1 52 807 Tm (UNIBALSAS | TED 03 | DECLARACAO DE USO DE IA) Tj ET
+0.82 0.86 0.89 RG .5 w 52 796 m 543 796 l S
+0.14 0.18 0.24 rg BT /F2 11 Tf 1 0 0 1 52 776.0 Tm (Declara\347\343o de uso de Intelig\352ncia Artificial \227 TED 03) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 750.0 Tm (Projeto: StudyTrack IA) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 729.6 Tm (Disciplina: Big Data e Ci\352ncias de Dados, ADS/UNIBALSAS, 2026.2) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 709.2 Tm (Professor: Alex Rogaleski Marques) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 688.8 Tm (Equipe: Caio Vin\355cius Lima Soares; David Rodrigues Costa; Francisco Wesley de Souza Dias;) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 674.4 Tm (Pedro Henrique Guedes.) Tj ET
+0.14 0.18 0.24 rg BT /F2 11 Tf 1 0 0 1 52 651.0 Tm (Ferramenta e finalidade) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 625.0 Tm (ChatGPT \(OpenAI\). Apoio \340 confer\352ncia do reposit\363rio p\372blico e da base UCI; consulta e revis\343o) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 610.6 Tm (de sintaxe de c\363digo Python e bibliotecas; reprodu\347\343o computacional local de m\351tricas;) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 596.2 Tm (verifica\347\343o de consist\352ncia entre matriz de confus\343o, resultados e texto; organiza\347\343o e) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 581.8 Tm (revis\343o documental.) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 558.4 Tm (A equipe dever\341 conferir o conte\372do desta declara\347\343o e identificar outras ferramentas) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 544.0 Tm (efetivamente usadas, se houver. Este registro n\343o afirma que a IA tenha sido utilizada somente) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 529.6 Tm (nessas etapas nem substitui o formul\341rio espec\355fico do professor.) Tj ET
+0.14 0.18 0.24 rg BT /F2 11 Tf 1 0 0 1 52 506.2 Tm (Etapas com apoio t\351cnico registrado) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 480.2 Tm (1. Confer\352ncia de estrutura do CSV e identidade do arquivo por hash Git.) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 459.8 Tm (2. Revis\343o de pipelines, pr\351-processamento e valida\347\343o cruzada estratificada de cinco partes) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 445.4 Tm (com os tr\352s classificadores.) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 425.0 Tm (3. Aplica\347\343o computacional do crit\351rio pr\351-especificado de maior F1-macro m\351dio, seguida da) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 410.6 Tm (execu\347\343o t\351cnica local do Random Forest nos 29 registros reservados.) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 390.2 Tm (4. Confer\352ncia das m\351tricas \(F1-macro 0,288095; acur\341cia 0,379310\), da matriz e do relat\363rio) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 375.8 Tm (por classe.) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 355.4 Tm (5. Organiza\347\343o editorial e revis\343o do Documento T\351cnico v3.0, preservando a descri\347\343o das TEDs) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 341.0 Tm (01 e 02.) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 320.6 Tm (6. Revis\343o de consist\352ncia do README, do hist\363rico de publica\347\343o e desta declara\347\343o.) Tj ET
+0.14 0.18 0.24 rg BT /F2 11 Tf 1 0 0 1 52 297.2 Tm (Autoria e decis\365es metodol\363gicas) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 271.2 Tm (As decis\365es metodol\363gicas registradas anteriormente pela equipe foram mantidas: 31 preditoras,) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 256.8 Tm (16 nominais, 15 ordinais, divis\343o 80/20 estratificada, cinco partes de valida\347\343o, semente 42,) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 242.4 Tm (F1-macro principal e compara\347\343o dos tr\352s classificadores. A sele\347\343o computacional do maior) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 228.0 Tm (F1-macro n\343o \351 apresentada como delibera\347\343o formal dos integrantes. A interpreta\347\343o acad\352mica) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 213.6 Tm (e a aprova\347\343o da entrega permanecem sob responsabilidade dos estudantes.) Tj ET
+0.14 0.18 0.24 rg BT /F2 11 Tf 1 0 0 1 52 190.2 Tm (Evid\352ncia de execu\347\343o e valida\347\343o) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 164.2 Tm (O arquivo publicado notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb cont\351m 12 c\351lulas) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 149.8 Tm (de c\363digo executadas e 17 sa\355das. Os registros confirmam a base de 145 registros e 31) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 135.4 Tm (preditoras, a divis\343o 116/29, 11 acertos em 29 observa\347\365es e os indicadores calculados. O CSV) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 121.0 Tm (preparado corresponde ao blob Git 7859d534e981355b852a520b5e745aac121f9489.) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 97.6 Tm (A execu\347\343o registrada foi local, n\343o no Google Colab oficial. N\343o foram realizados valida\347\343o) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 83.2 Tm (externa, testes de equidade por subgrupo, implanta\347\343o em produ\347\343o nem avalia\347\343o operacional do) Tj ET
+0.82 0.86 0.89 RG .5 w 52 43 m 543 43 l S
+0.4 0.45 0.51 rg BT /F1 8 Tf 1 0 0 1 52 29 Tm (StudyTrack IA - registro para conferencia academica) Tj ET
+0.4 0.45 0.51 rg BT /F1 8 Tf 1 0 0 1 485 29 Tm (Pagina 1/2) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2193 >>
+stream
+0.11 0.27 0.45 rg BT /F2 9 Tf 1 0 0 1 52 807 Tm (UNIBALSAS | TED 03 | DECLARACAO DE USO DE IA) Tj ET
+0.82 0.86 0.89 RG .5 w 52 796 m 543 796 l S
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 776.0 Tm (MVP.) Tj ET
+0.14 0.18 0.24 rg BT /F2 11 Tf 1 0 0 1 52 752.6 Tm (Hist\363rico de consultas) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 726.6 Tm (O hist\363rico efetivamente utilizado dever\341 ser apresentado em link ou PDF, se exigido no termo) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 712.2 Tm (do professor. Link de uma das conversas relacionadas informado pelo estudante:) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 697.8 Tm (https://chatgpt.com/share/6ae8bfb4-ea70-83e9-a002-4ed4cc926903) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 674.4 Tm (Outras conversas de confer\352ncia t\351cnica e de revis\343o documental devem constar do hist\363rico) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 660.0 Tm (entregue se efetivamente utilizadas, evitando omiss\365es ou cria\347\343o de evid\352ncias fict\355cias.) Tj ET
+0.14 0.18 0.24 rg BT /F2 11 Tf 1 0 0 1 52 636.6 Tm (Privacidade e responsabilidade) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 610.6 Tm (Foi utilizada uma base p\372blica e n\343o foram inseridas credenciais ou dados pessoais sigilosos) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 596.2 Tm (nesta revis\343o. A exclus\343o do identificador de modelagem n\343o garante anonimiza\347\343o completa. Os) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 581.8 Tm (estudantes devem conferir as fontes, resultados, reda\347\343o, riscos e conformidade com as regras) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 567.4 Tm (de uso restrito de IA da disciplina.) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 544.0 Tm (Registro organizado para confer\352ncia da equipe em 02/11/2026. N\343o presume assinatura ou) Tj ET
+0.14 0.18 0.24 rg BT /F1 9.4 Tf 1 0 0 1 54 529.6 Tm (aprova\347\343o individual dos integrantes.) Tj ET
+0.82 0.86 0.89 RG .5 w 52 43 m 543 43 l S
+0.4 0.45 0.51 rg BT /F1 8 Tf 1 0 0 1 52 29 Tm (StudyTrack IA - registro para conferencia academica) Tj ET
+0.4 0.45 0.51 rg BT /F1 8 Tf 1 0 0 1 485 29 Tm (Pagina 2/2) Tj ET
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000016 00000 n 
+0000000065 00000 n 
+0000000128 00000 n 
+0000000225 00000 n 
+0000000327 00000 n 
+0000000463 00000 n 
+0000006054 00000 n 
+0000006190 00000 n 
+trailer
+<< /Size 9 /Root 1 0 R >>
+startxref
+8434
+%%EOF
