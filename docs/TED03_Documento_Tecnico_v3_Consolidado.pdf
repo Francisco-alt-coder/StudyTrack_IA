@@ -1,0 +1,858 @@
+%PDF-1.4
+%ASCII
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R] /Count 8 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 7290 >>
+stream
+0.1 0.26 0.45 rg 48 804 5 12 re f
+0.11 0.27 0.46 rg BT /F2 9 Tf 1 0 0 1 59 806 Tm (UNIBALSAS  |  ADS 2026.2  |  TED 03) Tj ET
+0.75 0.82 0.90 RG .5 w 48 798 m 547.28 798 l S
+0.15 0.39 0.63 rg 41.0 775.9 3.6 18.0 re f
+0.10 0.27 0.46 rg BT /F2 16.40 Tf 1 0 0 1 48.0 773.9 Tm (STUDYTRACK IA: sele\347\343o, prepara\347\343o, an\341lise e modelagem de dados) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 746.5 Tm (Documento T\351cnico v3.0 \227 vers\343o acumulativa consolidada para confer\352ncia acad\352mica Institui\347\343o: Centro Universit\341rio de) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 733.5 Tm (Balsas \(UNIBALSAS\) Curso: An\341lise e Desenvolvimento de Sistemas \227 2026.2 Disciplina: Big Data e Ci\352ncias de Dados) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 720.5 Tm (Professor: Alex Rogaleski Marques Autores: Caio Vin\355cius Lima Soares; David Rodrigues Costa; Francisco Wesley de) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 707.5 Tm (Souza Dias; Pedro Henrique Guedes. Local e data: Balsas, MA, 02 de novembro de 2026.) Tj ET
+0.44 0.57 0.73 rg 41.0 663.5 3.0 20.0 re f
+0.15 0.19 0.24 rg BT /F1 8.80 Tf 1 0 0 1 55.0 686.5 Tm (Condi\347\343o de uso: consolida\347\343o de registros j\341 existentes das TEDs 01, 02 e 03, para confer\352ncia da equipe. N\343o constitui) Tj ET
+0.15 0.19 0.24 rg BT /F1 8.80 Tf 1 0 0 1 55.0 674.0 Tm (aprova\347\343o formal pelo professor ou valida\347\343o coletiva documentada. O notebook foi executado localmente; execu\347\343o no Google) Tj ET
+0.15 0.19 0.24 rg BT /F1 8.80 Tf 1 0 0 1 55.0 661.5 Tm (Colab n\343o foi comprovada. N\343o se alteraram os resultados j\341 publicados. Os PDFs originais das TEDs 01 e 02 permanecem no) Tj ET
+0.15 0.19 0.24 rg BT /F1 8.80 Tf 1 0 0 1 55.0 649.0 Tm (reposit\363rio como evid\352ncias integrais das etapas anteriores.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 613.5 Tm (1. Introdu\347\343o) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 600.2 m 547.28 600.2 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 589.2 Tm (O StudyTrack IA prop\365e apoiar estudantes na organiza\347\343o de disciplinas, avalia\347\365es, atividades e prazos. A pesquisa em) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 576.2 Tm (Big Data e Ci\352ncias de Dados foi estruturada em etapas cumulativas: sele\347\343o do problema e dos dados \(TED 01\),) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 563.2 Tm (prepara\347\343o e an\341lise explorat\363ria \(TED 02\) e modelagem e avalia\347\343o \(TED 03\). A classifica\347\343o de notas hist\363ricas nesta) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 550.2 Tm (etapa \351 retrospectiva, n\343o uma previs\343o antecipada nem a valida\347\343o do sistema de prioriza\347\343o de tarefas.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 516.2 Tm (2. Problema e solu\347\343o propostos) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 502.9 m 547.28 502.9 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 491.9 Tm (O problema do projeto \351 a dificuldade de conciliar disciplinas, avalia\347\365es, trabalhos e prazos. O MVP prev\352 cadastro e) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 478.9 Tm (acompanhamento de disciplinas e atividades, calend\341rio, visualiza\347\343o de prioridades e painel acad\352mico. A an\341lise de) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 465.9 Tm (dados de desempenho complementa a compreens\343o do contexto educacional, mas n\343o constitui o algoritmo central de) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 452.9 Tm (prioridade do MVP.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 418.9 Tm (3. Necessidades de dados) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 405.6 m 547.28 405.6 l S
+0.90 0.94 0.97 rg 48.0 381.6 499.3 16.0 re f
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 52.0 384.6 Tm (Informa\347\343o) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 273.0 384.6 Tm (Finalidade da investiga\347\343o) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 381.6 m 547.28 381.6 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 368.6 Tm (Horas de estudo) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 273.0 368.6 Tm (Caracteriza\347\343o da dedica\347\343o acad\352mica) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 365.6 m 547.28 365.6 l S
+0.97 0.98 0.99 rg 48.0 349.6 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 352.6 Tm (Frequ\352ncia \340s aulas) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 273.0 352.6 Tm (Participa\347\343o acad\352mica) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 349.6 m 547.28 349.6 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 336.6 Tm (Prepara\347\343o para avalia\347\365es) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 273.0 336.6 Tm (H\341bitos de organiza\347\343o e estudo) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 333.6 m 547.28 333.6 l S
+0.97 0.98 0.99 rg 48.0 317.6 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 320.6 Tm (Projetos e atividades) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 273.0 320.6 Tm (Percep\347\343o de impacto sobre o desempenho) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 317.6 m 547.28 317.6 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 304.6 Tm (Desempenho anterior e notas) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 273.0 304.6 Tm (Classifica\347\343o retrospectiva de grade) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 301.6 m 547.28 301.6 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 289.6 Tm (Para validar a prioriza\347\343o efetiva de atividades, o MVP ainda precisar\341 de dados pr\363prios de tarefas: prazos, pesos,) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 276.6 Tm (disciplinas, status e esfor\347o previsto. A base acad\352mica selecionada n\343o cont\351m essas vari\341veis operacionais.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 242.6 Tm (4. Conjunto de dados selecionado) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 229.3 m 547.28 229.3 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 218.3 Tm (A TED 01 selecionou Higher Education Students Performance Evaluation, do UCI Machine Learning Repository, com 145) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 205.3 Tm (observa\347\365es e 31 atributos preditores. O CSV de origem cont\351m 33 colunas, incluindo student_id e grade. A vers\343o) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 192.3 Tm (utilizada na modelagem possui 32 colunas: as 31 preditoras e o alvo grade.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 171.3 Tm (\225 Fonte: UCI Machine Learning Repository, DOI 10.24432/C51G82 \(https://doi.org/10.24432/C51G82\).) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 156.3 Tm (\225 Formato: CSV.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 141.3 Tm (\225 Licen\347a informada no material: CC BY 4.0.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 126.3 Tm (\225 Base de modelagem: data/processed/dataset_modelagem.csv.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 111.3 Tm (\225 Hash Git da base preparada verificado nos registros t\351cnicos: 7859d534e981355b852a520b5e745aac121f9489.) Tj ET
+0.80 0.84 0.88 RG 0.5 w 48 43 m 547.28 43 l S
+0.42 0.48 0.55 rg BT /F1 7.4 Tf 1 0 0 1 48 31 Tm (StudyTrack IA - Documento T\351cnico v3.0 - consolida\347\343o para confer\352ncia) Tj ET
+0.36 0.41 0.46 rg BT /F1 7.5 Tf 1 0 0 1 467.28 31 Tm (P\341gina 1 de 8) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 7008 >>
+stream
+0.1 0.26 0.45 rg 48 804 5 12 re f
+0.11 0.27 0.46 rg BT /F2 9 Tf 1 0 0 1 59 806 Tm (UNIBALSAS  |  ADS 2026.2  |  TED 03) Tj ET
+0.75 0.82 0.90 RG .5 w 48 798 m 547.28 798 l S
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 760.9 Tm (5. Vari\341veis principais) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 747.6 m 547.28 747.6 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 736.6 Tm (O conjunto contempla h\341bitos de estudo, leitura, frequ\352ncia \340s aulas, prepara\347\343o para provas, GPA do semestre anterior,) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 723.6 Tm (expectativa de GPA, percep\347\343o sobre projetos e caracter\355sticas acad\352micas, pessoais e familiares. A vari\341vel-alvo grade) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 710.6 Tm (apresenta oito classes: 0=Fail, 1=DD, 2=DC, 3=CC, 4=CB, 5=BB, 6=BA e 7=AA.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 689.6 Tm (Os c\363digos de classes s\343o usados como categorias de classifica\347\343o e n\343o como medidas cont\355nuas.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 655.6 Tm (6. Justificativa da base e dos atributos) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 642.3 m 547.28 642.3 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 631.3 Tm (A base \351 p\372blica, foi utilizada nas etapas anteriores e cont\351m vari\341veis relacionadas ao contexto de desempenho) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 618.3 Tm (acad\352mico. A TED 03 manteve as 31 preditoras, conforme protocolo previamente registrado pela equipe, para comparar) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 605.3 Tm (tr\352s t\351cnicas sob o mesmo conjunto de atributos, sem selecionar vari\341veis ap\363s observar os resultados do teste. A) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 592.3 Tm (decis\343o n\343o demonstra que todas as vari\341veis sejam igualmente relevantes, nem substitui uma an\341lise futura de) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 579.3 Tm (import\342ncia de atributos. Caracter\355sticas demogr\341ficas e socioecon\364micas demandam especial cautela quanto a vieses e) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 566.3 Tm (privacidade.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 545.3 Tm (A base n\343o tem prazo, peso nem status de tarefa, portanto n\343o pode avaliar diretamente a qualidade das prioridades) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 532.3 Tm (geradas pelo MVP.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 498.3 Tm (7. Qualidade e limita\347\365es levantadas na TED 01) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 485.0 m 547.28 485.0 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 474.0 Tm (A etapa inicial identificou 145 observa\347\365es, predom\355nio de vari\341veis categ\363ricas e aus\352ncia de dados faltantes segundo os) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 461.0 Tm (registros documentados. A amostra reduzida e a exist\352ncia de classes raras limitam a robustez das estimativas e a) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 448.0 Tm (generaliza\347\343o a outros contextos educacionais.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 414.0 Tm (8. Limpeza e prepara\347\343o dos dados da TED 02) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 400.7 m 547.28 400.7 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 389.7 Tm (A TED 02 inspecionou 145 linhas e 33 colunas do arquivo original, sem encontrar valores ausentes, duplicatas ou c\363digos) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 376.7 Tm (fora das faixas documentadas. N\343o houve imputa\347\343o, exclus\343o de linhas ou remo\347\343o autom\341tica de supostos outliers) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 363.7 Tm (categ\363ricos. Os nomes das colunas foram padronizados. Para a modelagem, student_id foi retirado do conjunto de) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 350.7 Tm (preditoras.) Tj ET
+0.90 0.94 0.97 rg 48.0 316.7 499.3 16.0 re f
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 52.0 319.7 Tm (Verifica\347\343o) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 378.5 319.7 Tm (Registro da TED 02) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 316.7 m 547.28 316.7 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 303.7 Tm (Registros) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 378.5 303.7 Tm (145) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 300.7 m 547.28 300.7 l S
+0.97 0.98 0.99 rg 48.0 284.7 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 287.7 Tm (Valores ausentes) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 378.5 287.7 Tm (0) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 284.7 m 547.28 284.7 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 271.7 Tm (Registros duplicados) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 378.5 271.7 Tm (0) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 268.7 m 547.28 268.7 l S
+0.97 0.98 0.99 rg 48.0 252.7 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 255.7 Tm (Identificadores \372nicos no original) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 378.5 255.7 Tm (145) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 252.7 m 547.28 252.7 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 239.7 Tm (C\363digos fora das faixas documentadas) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 378.5 239.7 Tm (0) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 236.7 m 547.28 236.7 l S
+0.97 0.98 0.99 rg 48.0 220.7 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 223.7 Tm (Vari\341veis preditoras utilizadas na TED 03) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 378.5 223.7 Tm (31) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 220.7 m 547.28 220.7 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 208.7 Tm (A aus\352ncia de tratamentos adicionais decorreu da inspe\347\343o documentada e n\343o de exclus\343o autom\341tica de registros. A) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 195.7 Tm (base original e os dados tratados permaneceram separados.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 161.7 Tm (9. An\341lise explorat\363ria de dados da TED 02) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 148.4 m 547.28 148.4 l S
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 128.4 Tm (9.1 Distribui\347\343o da vari\341vel-alvo) Tj ET
+0.90 0.94 0.97 rg 48.0 93.9 499.3 16.0 re f
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 52.0 96.9 Tm (Classe) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 171.8 96.9 Tm (Registros) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 351.6 96.9 Tm (Percentual) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 93.9 m 547.28 93.9 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 80.9 Tm (Fail) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 171.8 80.9 Tm (8) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 351.6 80.9 Tm (5,5%) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 77.9 m 547.28 77.9 l S
+0.80 0.84 0.88 RG 0.5 w 48 43 m 547.28 43 l S
+0.42 0.48 0.55 rg BT /F1 7.4 Tf 1 0 0 1 48 31 Tm (StudyTrack IA - Documento T\351cnico v3.0 - consolida\347\343o para confer\352ncia) Tj ET
+0.36 0.41 0.46 rg BT /F1 7.5 Tf 1 0 0 1 467.28 31 Tm (P\341gina 2 de 8) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 8725 >>
+stream
+0.1 0.26 0.45 rg 48 804 5 12 re f
+0.11 0.27 0.46 rg BT /F2 9 Tf 1 0 0 1 59 806 Tm (UNIBALSAS  |  ADS 2026.2  |  TED 03) Tj ET
+0.75 0.82 0.90 RG .5 w 48 798 m 547.28 798 l S
+0.97 0.98 0.99 rg 48.0 760.9 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 763.9 Tm (DD) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 171.8 763.9 Tm (35) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 351.6 763.9 Tm (24,1%) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 760.9 m 547.28 760.9 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 747.9 Tm (DC) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 171.8 747.9 Tm (24) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 351.6 747.9 Tm (16,6%) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 744.9 m 547.28 744.9 l S
+0.97 0.98 0.99 rg 48.0 728.9 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 731.9 Tm (CC) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 171.8 731.9 Tm (21) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 351.6 731.9 Tm (14,5%) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 728.9 m 547.28 728.9 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 715.9 Tm (CB) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 171.8 715.9 Tm (10) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 351.6 715.9 Tm (6,9%) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 712.9 m 547.28 712.9 l S
+0.97 0.98 0.99 rg 48.0 696.9 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 699.9 Tm (BB) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 171.8 699.9 Tm (17) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 351.6 699.9 Tm (11,7%) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 696.9 m 547.28 696.9 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 683.9 Tm (BA) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 171.8 683.9 Tm (13) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 351.6 683.9 Tm (9,0%) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 680.9 m 547.28 680.9 l S
+0.97 0.98 0.99 rg 48.0 664.9 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 667.9 Tm (AA) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 171.8 667.9 Tm (17) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 351.6 667.9 Tm (11,7%) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 664.9 m 547.28 664.9 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 652.9 Tm (O desbalanceamento entre classes fundamentou o uso de F1-macro como m\351trica principal: a m\351dia d\341 peso igual ao) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 639.9 Tm (desempenho em cada classe, diferentemente de uma acur\341cia agregada.) Tj ET
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 609.9 Tm (9.2 Horas semanais de estudo) Tj ET
+0.90 0.94 0.97 rg 48.0 575.4 499.3 16.0 re f
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 52.0 578.4 Tm (Grupo) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 229.5 578.4 Tm (N) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 285.0 578.4 Tm (M\351dia do c\363digo de grade) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 575.4 m 547.28 575.4 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 562.4 Tm (Nenhuma) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 229.5 562.4 Tm (29) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 285.0 562.4 Tm (2,90) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 559.4 m 547.28 559.4 l S
+0.97 0.98 0.99 rg 48.0 543.4 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 546.4 Tm (Menos de 5 horas) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 229.5 546.4 Tm (74) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 285.0 546.4 Tm (3,45) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 543.4 m 547.28 543.4 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 530.4 Tm (6 a 10 horas) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 229.5 530.4 Tm (30) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 285.0 530.4 Tm (3,27) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 527.4 m 547.28 527.4 l S
+0.97 0.98 0.99 rg 48.0 511.4 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 514.4 Tm (11 a 20 horas) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 229.5 514.4 Tm (8) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 285.0 514.4 Tm (2,88) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 511.4 m 547.28 511.4 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 498.4 Tm (Mais de 20 horas) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 229.5 498.4 Tm (4) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 285.0 498.4 Tm (2,00) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 495.4 m 547.28 495.4 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 483.4 Tm (As m\351dias descritivas n\343o mostram progress\343o linear simples, e os grupos com maior dedica\347\343o t\352m poucas) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 470.4 Tm (observa\347\365es.) Tj ET
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 440.4 Tm (9.3 Frequ\352ncia \340s aulas) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 418.9 Tm (O grupo que declarou comparecer sempre teve 110 registros e m\351dia codificada de 3,40. O grupo que comparecia \340s) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 405.9 Tm (vezes teve 35 registros e m\351dia 2,69. A compara\347\343o n\343o permite concluir causalidade.) Tj ET
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 375.9 Tm (9.4 Percep\347\343o sobre projetos e atividades) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 354.4 Tm (A percep\347\343o positiva reuniu 128 estudantes \(m\351dia 3,39\), a negativa reuniu quatro \(m\351dia 2,25\) e a neutra reuniu 13) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 341.4 Tm (\(m\351dia 1,92\). A grande diferen\347a entre os tamanhos dos grupos limita compara\347\365es.) Tj ET
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 311.4 Tm (9.5 GPA do semestre anterior) Tj ET
+0.90 0.94 0.97 rg 48.0 276.9 499.3 16.0 re f
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 52.0 279.9 Tm (Faixa de GPA anterior) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 266.0 279.9 Tm (N) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 316.9 279.9 Tm (M\351dia de grade \(c\363digo\)) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 276.9 m 547.28 276.9 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 263.9 Tm (Abaixo de 2,00) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 266.0 263.9 Tm (17) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 316.9 263.9 Tm (2,24) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 260.9 m 547.28 260.9 l S
+0.97 0.98 0.99 rg 48.0 244.9 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 247.9 Tm (2,00\2262,49) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 266.0 247.9 Tm (38) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 316.9 247.9 Tm (2,29) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 244.9 m 547.28 244.9 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 231.9 Tm (2,50\2262,99) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 266.0 231.9 Tm (25) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 316.9 231.9 Tm (3,92) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 228.9 m 547.28 228.9 l S
+0.97 0.98 0.99 rg 48.0 212.9 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 215.9 Tm (3,00\2263,49) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 266.0 215.9 Tm (40) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 316.9 215.9 Tm (3,48) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 212.9 m 547.28 212.9 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 199.9 Tm (Acima de 3,49) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 266.0 199.9 Tm (25) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 316.9 199.9 Tm (4,24) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 196.9 m 547.28 196.9 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 184.9 Tm (A an\341lise da TED 02 registrou coeficientes V de Cram\351r aproximados de 0,262 para GPA anterior, 0,201 para percep\347\343o de) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 171.9 Tm (projetos, 0,169 para GPA esperado, 0,144 para horas de estudo e 0,138 para frequ\352ncia. Associa\347\365es descritivas n\343o) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 158.9 Tm (demonstram causalidade nem garantem capacidade preditiva.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 124.9 Tm (10. Rela\347\343o da explora\347\343o com o problema e o MVP) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 111.6 m 547.28 111.6 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 100.6 Tm (A explora\347\343o d\341 contexto a h\341bitos e hist\363rico de desempenho, mas n\343o testa o c\341lculo de prioridades de tarefas. Para) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 87.6 Tm (esse componente, seriam necess\341rios registros de atividades com prazos, pesos, status e outras informa\347\365es) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 74.6 Tm (operacionais.) Tj ET
+0.80 0.84 0.88 RG 0.5 w 48 43 m 547.28 43 l S
+0.42 0.48 0.55 rg BT /F1 7.4 Tf 1 0 0 1 48 31 Tm (StudyTrack IA - Documento T\351cnico v3.0 - consolida\347\343o para confer\352ncia) Tj ET
+0.36 0.41 0.46 rg BT /F1 7.5 Tf 1 0 0 1 467.28 31 Tm (P\341gina 3 de 8) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 5777 >>
+stream
+0.1 0.26 0.45 rg 48 804 5 12 re f
+0.11 0.27 0.46 rg BT /F2 9 Tf 1 0 0 1 59 806 Tm (UNIBALSAS  |  ADS 2026.2  |  TED 03) Tj ET
+0.75 0.82 0.90 RG .5 w 48 798 m 547.28 798 l S
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 760.9 Tm (11. Limita\347\365es da an\341lise explorat\363ria) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 747.6 m 547.28 747.6 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 736.6 Tm (A base \351 pequena, representa um contexto educacional restrito, possui vari\341veis autorrelatadas e grupos pouco) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 723.6 Tm (representados. N\343o se devem generalizar rela\347\365es descritivas para outras institui\347\365es ou atribuir efeito causal sem) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 710.6 Tm (desenho apropriado.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 676.6 Tm (12. S\355ntese da TED 02) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 663.3 m 547.28 663.3 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 652.3 Tm (A base foi preparada sem imputar valores nem excluir registros; as colunas foram padronizadas e os identificadores) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 639.3 Tm (foram exclu\355dos de X. As diferen\347as observadas por hist\363rico acad\352mico, frequ\352ncia e projetos fundamentaram o exame) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 626.3 Tm (de classifica\347\343o supervisionada, com cautela devido ao tamanho e composi\347\343o da amostra.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 592.3 Tm (13. Defini\347\343o do problema de Machine Learning) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 579.0 m 547.28 579.0 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 568.0 Tm (A TED 03 investigou classifica\347\343o supervisionada multiclasse retrospectiva, com grade como alvo e oito categorias) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 555.0 Tm (preservadas. A finalidade foi verificar, por experimentos reproduz\355veis, o comportamento de modelos supervisionados) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 542.0 Tm (utilizando as vari\341veis da base tratada. O estudo n\343o equivale a prever notas antes de todos os atributos estarem) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 529.0 Tm (dispon\355veis.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 495.0 Tm (14. Conjunto de dados, alvo e sele\347\343o de vari\341veis) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 481.7 m 547.28 481.7 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 470.7 Tm (O arquivo data/processed/dataset_modelagem.csv cont\351m 145 linhas e 32 colunas: 31 preditoras e grade. O identificador) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 457.7 Tm (student_id foi exclu\355do. O trabalho preservou todas as 31 preditoras conforme decis\343o metodol\363gica anterior, tratando) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 444.7 Tm (seus diferentes tipos conforme a natureza codificada.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 410.7 Tm (15. Prepara\347\343o para modelagem e preven\347\343o de vazamento) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 397.4 m 547.28 397.4 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 386.4 Tm (O protocolo adotado foi:) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 365.4 Tm (\225 16 atributos nominais: OneHotEncoder\(handle_unknown='ignore'\).) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 350.4 Tm (\225 15 atributos ordinais: c\363digos preservados como valores ordenados.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 335.4 Tm (\225 Regress\343o Log\355stica: StandardScaler sobre os ordinais.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 320.4 Tm (\225 \301rvore de Decis\343o e Random Forest: ordinais sem padroniza\347\343o.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 305.4 Tm (\225 Pipelines: transformadores ajustados em cada parti\347\343o de treinamento, sem utilizar indevidamente as observa\347\365es do) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 292.4 Tm (teste.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 274.4 Tm (Essa separa\347\343o permite tratamento adequado aos diferentes algoritmos e reduz riscos de vazamento do conjunto de teste) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 261.4 Tm (durante valida\347\343o.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 227.4 Tm (16. Algoritmos, divis\343o e avalia\347\343o) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 214.1 m 547.28 214.1 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 203.1 Tm (Foram comparados LogisticRegression\(max_iter=3000\), DecisionTreeClassifier e RandomForestClassifier, com) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 190.1 Tm (random_state=42 quando aplic\341vel. A divis\343o estratificada 80/20 gerou 116 registros de treino e 29 de teste reservado. A) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 177.1 Tm (compara\347\343o ocorreu apenas no conjunto de treino, usando StratifiedKFold\(n_splits=5, shuffle=True, random_state=42\).) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 156.1 Tm (M\351trica principal: F1-macro m\351dio da valida\347\343o cruzada. M\351trica complementar: acur\341cia. O classificador com maior) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 143.1 Tm (F1-macro m\351dio foi selecionado por regra computacional preestabelecida antes da avalia\347\343o do teste. Essa sele\347\343o) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 130.1 Tm (t\351cnica n\343o equivale a uma delibera\347\343o formal de equipe.) Tj ET
+0.80 0.84 0.88 RG 0.5 w 48 43 m 547.28 43 l S
+0.42 0.48 0.55 rg BT /F1 7.4 Tf 1 0 0 1 48 31 Tm (StudyTrack IA - Documento T\351cnico v3.0 - consolida\347\343o para confer\352ncia) Tj ET
+0.36 0.41 0.46 rg BT /F1 7.5 Tf 1 0 0 1 467.28 31 Tm (P\341gina 4 de 8) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 14898 >>
+stream
+0.1 0.26 0.45 rg 48 804 5 12 re f
+0.11 0.27 0.46 rg BT /F2 9 Tf 1 0 0 1 59 806 Tm (UNIBALSAS  |  ADS 2026.2  |  TED 03) Tj ET
+0.75 0.82 0.90 RG .5 w 48 798 m 547.28 798 l S
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 760.9 Tm (17. Resultados experimentais) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 747.6 m 547.28 747.6 l S
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 727.6 Tm (17.1 Compara\347\343o na valida\347\343o cruzada) Tj ET
+0.90 0.94 0.97 rg 48.0 693.1 499.3 16.0 re f
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 52.0 696.1 Tm (Classificador) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 166.3 696.1 Tm (F1-macro m\351dio) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 250.5 696.1 Tm (Desvio-padr\343o F1) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 346.8 696.1 Tm (Acur\341cia m\351dia) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 431.0 696.1 Tm (DP acur\341cia) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 497.1 696.1 Tm (F1 treino) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 693.1 m 547.28 693.1 l S
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 680.1 Tm (Random Forest) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 166.3 680.1 Tm (0,227408) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 250.5 680.1 Tm (0,057315) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 346.8 680.1 Tm (0,311232) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 431.0 680.1 Tm (0,074522) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 497.1 680.1 Tm (1,000000) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 677.1 m 547.28 677.1 l S
+0.97 0.98 0.99 rg 48.0 661.1 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 664.1 Tm (\301rvore de Decis\343o) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 166.3 664.1 Tm (0,208232) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 250.5 664.1 Tm (0,071473) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 346.8 664.1 Tm (0,242391) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 431.0 664.1 Tm (0,074874) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 497.1 664.1 Tm (1,000000) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 661.1 m 547.28 661.1 l S
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 648.1 Tm (Regress\343o Log\355stica) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 166.3 648.1 Tm (0,207314) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 250.5 648.1 Tm (0,054845) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 346.8 648.1 Tm (0,276812) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 431.0 648.1 Tm (0,081405) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 497.1 648.1 Tm (0,985632) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 645.1 m 547.28 645.1 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 633.1 Tm (O Random Forest obteve o maior F1-macro m\351dio nessa compara\347\343o. A diferen\347a pequena entre os valores e a) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 620.1 Tm (variabilidade entre as cinco partes n\343o comprovam superioridade geral.) Tj ET
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 590.1 Tm (17.2 Teste final reservado) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 568.6 Tm (Ap\363s a sele\347\343o t\351cnica por valida\347\343o cruzada, o Random Forest foi ajustado aos 116 registros de treinamento e avaliado) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 555.6 Tm (nos 29 reservados. Resultados da reprodu\347\343o local j\341 publicada:) Tj ET
+0.90 0.94 0.97 rg 48.0 521.6 499.3 16.0 re f
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 52.0 524.6 Tm (M\351trica) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.55 Tf 1 0 0 1 301.6 524.6 Tm (Resultado) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 521.6 m 547.28 521.6 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 508.6 Tm (F1-macro no teste) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 301.6 508.6 Tm (0,288095) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 505.6 m 547.28 505.6 l S
+0.97 0.98 0.99 rg 48.0 489.6 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 492.6 Tm (Acur\341cia no teste) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 301.6 492.6 Tm (0,379310 \(37,93%\)) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 489.6 m 547.28 489.6 l S
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 476.6 Tm (Acertos) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 301.6 476.6 Tm (11 de 29) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 473.6 m 547.28 473.6 l S
+0.97 0.98 0.99 rg 48.0 457.6 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 52.0 460.6 Tm (Classes do alvo) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.55 Tf 1 0 0 1 301.6 460.6 Tm (8) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 457.6 m 547.28 457.6 l S
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 436.6 Tm (17.3 Matriz de confus\343o do teste) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 415.1 Tm (Linhas = classes reais; colunas = classes previstas.) Tj ET
+0.90 0.94 0.97 rg 48.0 381.1 499.3 16.0 re f
+0.12 0.27 0.43 rg BT /F3 6.65 Tf 1 0 0 1 52.0 384.1 Tm (Real / Prevista) Tj ET
+0.12 0.27 0.43 rg BT /F3 6.65 Tf 1 0 0 1 188.2 384.1 Tm (Fail) Tj ET
+0.12 0.27 0.43 rg BT /F3 6.65 Tf 1 0 0 1 233.6 384.1 Tm (DD) Tj ET
+0.12 0.27 0.43 rg BT /F3 6.65 Tf 1 0 0 1 278.9 384.1 Tm (DC) Tj ET
+0.12 0.27 0.43 rg BT /F3 6.65 Tf 1 0 0 1 324.3 384.1 Tm (CC) Tj ET
+0.12 0.27 0.43 rg BT /F3 6.65 Tf 1 0 0 1 369.7 384.1 Tm (CB) Tj ET
+0.12 0.27 0.43 rg BT /F3 6.65 Tf 1 0 0 1 415.1 384.1 Tm (BB) Tj ET
+0.12 0.27 0.43 rg BT /F3 6.65 Tf 1 0 0 1 460.5 384.1 Tm (BA) Tj ET
+0.12 0.27 0.43 rg BT /F3 6.65 Tf 1 0 0 1 505.9 384.1 Tm (AA) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 381.1 m 547.28 381.1 l S
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 52.0 368.1 Tm (Fail) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 188.2 368.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 233.6 368.1 Tm (1) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 278.9 368.1 Tm (1) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 324.3 368.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 369.7 368.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 415.1 368.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 460.5 368.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 505.9 368.1 Tm (0) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 365.1 m 547.28 365.1 l S
+0.97 0.98 0.99 rg 48.0 349.1 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 52.0 352.1 Tm (DD) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 188.2 352.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 233.6 352.1 Tm (5) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 278.9 352.1 Tm (1) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 324.3 352.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 369.7 352.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 415.1 352.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 460.5 352.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 505.9 352.1 Tm (1) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 349.1 m 547.28 349.1 l S
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 52.0 336.1 Tm (DC) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 188.2 336.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 233.6 336.1 Tm (5) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 278.9 336.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 324.3 336.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 369.7 336.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 415.1 336.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 460.5 336.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 505.9 336.1 Tm (0) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 333.1 m 547.28 333.1 l S
+0.97 0.98 0.99 rg 48.0 317.1 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 52.0 320.1 Tm (CC) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 188.2 320.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 233.6 320.1 Tm (2) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 278.9 320.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 324.3 320.1 Tm (2) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 369.7 320.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 415.1 320.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 460.5 320.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 505.9 320.1 Tm (0) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 317.1 m 547.28 317.1 l S
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 52.0 304.1 Tm (CB) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 188.2 304.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 233.6 304.1 Tm (1) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 278.9 304.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 324.3 304.1 Tm (1) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 369.7 304.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 415.1 304.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 460.5 304.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 505.9 304.1 Tm (0) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 301.1 m 547.28 301.1 l S
+0.97 0.98 0.99 rg 48.0 285.1 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 52.0 288.1 Tm (BB) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 188.2 288.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 233.6 288.1 Tm (3) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 278.9 288.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 324.3 288.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 369.7 288.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 415.1 288.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 460.5 288.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 505.9 288.1 Tm (0) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 285.1 m 547.28 285.1 l S
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 52.0 272.1 Tm (BA) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 188.2 272.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 233.6 272.1 Tm (1) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 278.9 272.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 324.3 272.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 369.7 272.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 415.1 272.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 460.5 272.1 Tm (2) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 505.9 272.1 Tm (0) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 269.1 m 547.28 269.1 l S
+0.97 0.98 0.99 rg 48.0 253.1 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 52.0 256.1 Tm (AA) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 188.2 256.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 233.6 256.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 278.9 256.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 324.3 256.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 369.7 256.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 415.1 256.1 Tm (0) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 460.5 256.1 Tm (1) Tj ET
+0.15 0.18 0.23 rg BT /F3 6.65 Tf 1 0 0 1 505.9 256.1 Tm (2) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 253.1 m 547.28 253.1 l S
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 232.1 Tm (17.4 Relat\363rio por classe) Tj ET
+0.90 0.94 0.97 rg 48.0 197.6 499.3 16.0 re f
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 52.0 200.6 Tm (Classe) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 137.6 200.6 Tm (Precis\343o) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 251.7 200.6 Tm (Recall) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 337.3 200.6 Tm (F1-score) Tj ET
+0.12 0.27 0.43 rg BT /F3 7.05 Tf 1 0 0 1 451.4 200.6 Tm (Suporte) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 197.6 m 547.28 197.6 l S
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 184.6 Tm (Fail) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 137.6 184.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 251.7 184.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 337.3 184.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 451.4 184.6 Tm (2) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 181.6 m 547.28 181.6 l S
+0.97 0.98 0.99 rg 48.0 165.6 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 168.6 Tm (DD) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 137.6 168.6 Tm (0,278) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 251.7 168.6 Tm (0,714) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 337.3 168.6 Tm (0,400) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 451.4 168.6 Tm (7) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 165.6 m 547.28 165.6 l S
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 152.6 Tm (DC) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 137.6 152.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 251.7 152.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 337.3 152.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 451.4 152.6 Tm (5) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 149.6 m 547.28 149.6 l S
+0.97 0.98 0.99 rg 48.0 133.6 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 136.6 Tm (CC) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 137.6 136.6 Tm (0,667) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 251.7 136.6 Tm (0,500) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 337.3 136.6 Tm (0,571) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 451.4 136.6 Tm (4) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 133.6 m 547.28 133.6 l S
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 120.6 Tm (CB) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 137.6 120.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 251.7 120.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 337.3 120.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 451.4 120.6 Tm (2) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 117.6 m 547.28 117.6 l S
+0.97 0.98 0.99 rg 48.0 101.6 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 104.6 Tm (BB) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 137.6 104.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 251.7 104.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 337.3 104.6 Tm (0,000) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 451.4 104.6 Tm (3) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 101.6 m 547.28 101.6 l S
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 88.6 Tm (BA) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 137.6 88.6 Tm (0,667) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 251.7 88.6 Tm (0,667) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 337.3 88.6 Tm (0,667) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 451.4 88.6 Tm (3) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 85.6 m 547.28 85.6 l S
+0.97 0.98 0.99 rg 48.0 69.6 499.3 16.0 re f
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 52.0 72.6 Tm (AA) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 137.6 72.6 Tm (0,667) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 251.7 72.6 Tm (0,667) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 337.3 72.6 Tm (0,667) Tj ET
+0.15 0.18 0.23 rg BT /F3 7.05 Tf 1 0 0 1 451.4 72.6 Tm (3) Tj ET
+0.87 0.89 0.91 RG 0.35 w 48 69.6 m 547.28 69.6 l S
+0.80 0.84 0.88 RG 0.5 w 48 43 m 547.28 43 l S
+0.42 0.48 0.55 rg BT /F1 7.4 Tf 1 0 0 1 48 31 Tm (StudyTrack IA - Documento T\351cnico v3.0 - consolida\347\343o para confer\352ncia) Tj ET
+0.36 0.41 0.46 rg BT /F1 7.5 Tf 1 0 0 1 467.28 31 Tm (P\341gina 5 de 8) Tj ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 7428 >>
+stream
+0.1 0.26 0.45 rg 48 804 5 12 re f
+0.11 0.27 0.46 rg BT /F2 9 Tf 1 0 0 1 59 806 Tm (UNIBALSAS  |  ADS 2026.2  |  TED 03) Tj ET
+0.75 0.82 0.90 RG .5 w 48 798 m 547.28 798 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 773.9 Tm (Visualiza\347\365es executadas: os gr\341ficos de distribui\347\343o de classes, compara\347\343o de F1-macro e matriz de confus\343o est\343o) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 760.9 Tm (nas sa\355das do notebook TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 747.9 Tm (\(../notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb\).) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 713.9 Tm (18. Interpreta\347\343o dos resultados, erros e limita\347\365es) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 700.6 m 547.28 700.6 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 689.6 Tm (O teste apresentou acur\341cia de 37,93% e F1-macro de 0,288095. Nenhuma observa\347\343o das classes Fail, DC, CB e BB foi) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 676.6 Tm (corretamente classificada no teste reservado. Houve concentra\347\343o de previs\365es em DD. O F1-macro pr\363ximo de 1,0 no) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 663.6 Tm (treinamento dos modelos contrasta com resultados muito menores em valida\347\343o cruzada, situa\347\343o compat\355vel com risco) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 650.6 Tm (de sobreajuste.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 629.6 Tm (A reduzida amostra e o n\372mero pequeno de observa\347\365es por classe tornam os indicadores inst\341veis. N\343o houve valida\347\343o) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 616.6 Tm (externa ou avalia\347\343o da estabilidade em outras institui\347\365es e turmas. Esses resultados n\343o sustentam uso para decis\365es) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 603.6 Tm (individuais sobre estudantes.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 569.6 Tm (19. Privacidade, reprodutibilidade e contribui\347\343o ao MVP) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 556.3 m 547.28 556.3 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 545.3 Tm (O experimento utilizou base p\372blica. A exclus\343o de student_id entre os preditores n\343o garante anonimiza\347\343o completa. Em) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 532.3 Tm (aplica\347\365es com dados pessoais, seriam necess\341rias medidas compat\355veis com a LGPD, com aten\347\343o a finalidade,) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 519.3 Tm (necessidade, base legal, prote\347\343o e transpar\352ncia. Informa\347\365es demogr\341ficas e familiares podem refletir desigualdades;) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 506.3 Tm (n\343o foi executada auditoria de equidade por subgrupos.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 485.3 Tm (O trabalho documenta uma demonstra\347\343o t\351cnica de classifica\347\343o retrospectiva; n\343o valida previs\343o antecipada de) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 472.3 Tm (desempenho nem o algoritmo de prioriza\347\343o do StudyTrack IA. Os experimentos ajudam a identificar requisitos de dados,) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 459.3 Tm (limites de aplica\347\343o e cuidados para uma futura avalia\347\343o do MVP.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 438.3 Tm (Rastreabilidade: notebooks/TED03/TED03_modelagem.ipynb \(original preservado\),) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 425.3 Tm (notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb \(12 c\351lulas de c\363digo executadas, 17 sa\355das\),) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 412.3 Tm (docs/TED03_RESULTADOS_TECNICOS_2026-11-02.md \(m\351tricas e matriz\). A execu\347\343o registrada \351 local; n\343o h\341) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 399.3 Tm (comprova\347\343o de execu\347\343o no Colab oficial. O Pull Request n\272 1 est\341 em rascunho, sem merge para main.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 365.3 Tm (20. Conclus\343o da TED 03) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 352.0 m 547.28 352.0 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 341.0 Tm (A TED 03 deu continuidade \340 sele\347\343o, \340 prepara\347\343o e \340 an\341lise explorat\363ria dos dados por meio da compara\347\343o de tr\352s) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 328.0 Tm (classificadores multiclasse. O Random Forest liderou a valida\347\343o cruzada pelo crit\351rio t\351cnico anteriormente registrado) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 315.0 Tm (\(F1-macro m\351dio de 0,227408\). No teste reservado, obteve F1-macro de 0,288095 e acur\341cia de 37,93%, com 11 acertos) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 302.0 Tm (em 29 observa\347\365es. O desempenho limitado, o risco de sobreajuste, o desequil\355brio e o tamanho das classes impedem) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 289.0 Tm (considerar o modelo pronto para aplica\347\343o operacional.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 268.0 Tm (A investiga\347\343o contribui para a forma\347\343o metodol\363gica e para a identifica\347\343o de requisitos de dados e limita\347\365es, mas n\343o) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 255.0 Tm (demonstra melhoria na prioriza\347\343o de tarefas do MVP. Esta vers\343o consolida evid\352ncias t\351cnicas e dever\341 ter suas) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 242.0 Tm (interpreta\347\365es e sua autoria conferidas pelos integrantes antes da submiss\343o.) Tj ET
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 208.0 Tm (Refer\352ncias e materiais de rastreabilidade) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 194.7 m 547.28 194.7 l S
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 183.7 Tm (\225 YILMAZ, Nevriye; SEKEROGLU, Boran. Higher Education Students Performance Evaluation. UCI Machine Learning) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 170.7 Tm (Repository. DOI: 10.24432/C51G82 \(https://doi.org/10.24432/C51G82\). Dados coletados em 2019, disponibilizados na UCI) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 157.7 Tm (em 2023.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 142.7 Tm (\225 SCIKIT-LEARN DEVELOPERS. Cross-validation: evaluating estimator performance) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 129.7 Tm (\(https://scikit-learn.org/stable/modules/cross_validation.html\). Documenta\347\343o.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 114.7 Tm (\225 STUDYTRACK IA. Reposit\363rio e TEDs anteriores \(https://github.com/Francisco-alt-coder/StudyTrack_IA\). PDFs) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 101.7 Tm (TED_01_Big_Data_StudyTrack_IA.pdf e TED02_StudyTrack_.pdf.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 86.7 Tm (\225 STUDYTRACK IA. Pull Request n\272 1 \227 TED 03 \(https://github.com/Francisco-alt-coder/StudyTrack_IA/pull/1\): notebook) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.10 Tf 1 0 0 1 59.0 73.7 Tm (de reprodu\347\343o local e resultados t\351cnicos de 02/11/2026.) Tj ET
+0.80 0.84 0.88 RG 0.5 w 48 43 m 547.28 43 l S
+0.42 0.48 0.55 rg BT /F1 7.4 Tf 1 0 0 1 48 31 Tm (StudyTrack IA - Documento T\351cnico v3.0 - consolida\347\343o para confer\352ncia) Tj ET
+0.36 0.41 0.46 rg BT /F1 7.5 Tf 1 0 0 1 467.28 31 Tm (P\341gina 6 de 8) Tj ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 2131 >>
+stream
+0.1 0.26 0.45 rg 48 804 5 12 re f
+0.11 0.27 0.46 rg BT /F2 9 Tf 1 0 0 1 59 806 Tm (UNIBALSAS  |  ADS 2026.2  |  TED 03) Tj ET
+0.75 0.82 0.90 RG .5 w 48 798 m 547.28 798 l S
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 760.9 Tm (Registro de uso da Intelig\352ncia Artificial) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 747.6 m 547.28 747.6 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 736.6 Tm (Ferramenta: ChatGPT \(OpenAI\). Finalidade: confer\352ncia dos arquivos p\372blicos e dos resultados, reprodu\347\343o t\351cnica local,) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 723.6 Tm (revis\343o de consist\352ncia e organiza\347\343o editorial do Documento T\351cnico v3.0. Apoio prestado: revis\343o documental,) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 710.6 Tm (explica\347\365es de c\363digo, compara\347\343o de m\351tricas e prepara\347\343o de materiais derivados de evid\352ncias j\341 existentes. A IA n\343o) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 697.6 Tm (executou o Google Colab oficial, n\343o aprovou o trabalho pelos integrantes e n\343o validou o desempenho do modelo em) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 684.6 Tm (produ\347\343o.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 663.6 Tm (Valida\347\343o: confronto entre matriz, acur\341cia e contagens, registro de execu\347\343o local no notebook e confer\352ncia de arquivos) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 650.6 Tm (e fontes. A equipe permanece respons\341vel por revisar as interpreta\347\365es, a autoria e o hist\363rico de consultas efetivamente) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 637.6 Tm (utilizadas.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 616.6 Tm (Privacidade: esta consolida\347\343o usou dados p\372blicos, sem inser\347\343o de dados pessoais sigilosos ou credenciais.) Tj ET
+0.80 0.84 0.88 RG 0.5 w 48 43 m 547.28 43 l S
+0.42 0.48 0.55 rg BT /F1 7.4 Tf 1 0 0 1 48 31 Tm (StudyTrack IA - Documento T\351cnico v3.0 - consolida\347\343o para confer\352ncia) Tj ET
+0.36 0.41 0.46 rg BT /F1 7.5 Tf 1 0 0 1 467.28 31 Tm (P\341gina 7 de 8) Tj ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 10167 >>
+stream
+0.1 0.26 0.45 rg 48 804 5 12 re f
+0.11 0.27 0.46 rg BT /F2 9 Tf 1 0 0 1 59 806 Tm (UNIBALSAS  |  ADS 2026.2  |  TED 03) Tj ET
+0.75 0.82 0.90 RG .5 w 48 798 m 547.28 798 l S
+0.10 0.27 0.46 rg BT /F2 12.30 Tf 1 0 0 1 48.0 760.9 Tm (Anexo visual \227 s\355ntese dos resultados) Tj ET
+0.80 0.85 0.91 RG 0.6 w 48 747.6 m 547.28 747.6 l S
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 739.6 Tm (Figura A: compara\347\343o descritiva do F1-macro m\351dio na valida\347\343o cruzada de cinco partes \(116 registros de) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.30 Tf 1 0 0 1 48.0 726.6 Tm (treinamento\). Fonte: resultados t\351cnicos da TED 03.) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.50 Tf 1 0 0 1 48.0 698.6 Tm (Random Forest) Tj ET
+0.18 0.45 0.70 rg 213.0 691.6 193.3 17.0 re f
+0.15 0.19 0.24 rg BT /F2 9.00 Tf 1 0 0 1 415.3 698.6 Tm (0.227408) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.50 Tf 1 0 0 1 48.0 653.6 Tm (\301rvore de Decis\343o) Tj ET
+0.18 0.45 0.70 rg 213.0 646.6 177.0 17.0 re f
+0.15 0.19 0.24 rg BT /F2 9.00 Tf 1 0 0 1 399.0 653.6 Tm (0.208232) Tj ET
+0.15 0.19 0.24 rg BT /F1 9.50 Tf 1 0 0 1 48.0 608.6 Tm (Regress\343o Log\355stica) Tj ET
+0.18 0.45 0.70 rg 213.0 601.6 176.2 17.0 re f
+0.15 0.19 0.24 rg BT /F2 9.00 Tf 1 0 0 1 398.2 608.6 Tm (0.207314) Tj ET
+0.10 0.27 0.46 rg BT /F2 10.50 Tf 1 0 0 1 48.0 539.6 Tm (Matriz de confus\343o \227 teste reservado) Tj ET
+0.15 0.19 0.24 rg BT /F2 7.80 Tf 1 0 0 1 156.0 494.1 Tm (Fail) Tj ET
+0.15 0.19 0.24 rg BT /F2 7.80 Tf 1 0 0 1 196.0 494.1 Tm (DD) Tj ET
+0.15 0.19 0.24 rg BT /F2 7.80 Tf 1 0 0 1 236.0 494.1 Tm (DC) Tj ET
+0.15 0.19 0.24 rg BT /F2 7.80 Tf 1 0 0 1 276.0 494.1 Tm (CC) Tj ET
+0.15 0.19 0.24 rg BT /F2 7.80 Tf 1 0 0 1 316.0 494.1 Tm (CB) Tj ET
+0.15 0.19 0.24 rg BT /F2 7.80 Tf 1 0 0 1 356.0 494.1 Tm (BB) Tj ET
+0.15 0.19 0.24 rg BT /F2 7.80 Tf 1 0 0 1 396.0 494.1 Tm (BA) Tj ET
+0.15 0.19 0.24 rg BT /F2 7.80 Tf 1 0 0 1 436.0 494.1 Tm (AA) Tj ET
+0.15 0.19 0.24 rg BT /F2 8.40 Tf 1 0 0 1 108.0 444.1 Tm (Fail) Tj ET
+0.94 0.97 0.99 rg 153.0 428.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 168.0 442.1 Tm (0) Tj ET
+0.72 0.84 0.94 rg 193.0 428.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 208.0 442.1 Tm (1) Tj ET
+0.72 0.84 0.94 rg 233.0 428.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 248.0 442.1 Tm (1) Tj ET
+0.94 0.97 0.99 rg 273.0 428.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 288.0 442.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 313.0 428.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 328.0 442.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 353.0 428.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 368.0 442.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 393.0 428.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 408.0 442.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 433.0 428.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 448.0 442.1 Tm (0) Tj ET
+0.15 0.19 0.24 rg BT /F2 8.40 Tf 1 0 0 1 108.0 404.1 Tm (DD) Tj ET
+0.94 0.97 0.99 rg 153.0 388.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 168.0 402.1 Tm (0) Tj ET
+0.19 0.45 0.70 rg 193.0 388.1 38.0 38.0 re f
+1 1 1 rg BT /F2 10.00 Tf 1 0 0 1 208.0 402.1 Tm (5) Tj ET
+0.72 0.84 0.94 rg 233.0 388.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 248.0 402.1 Tm (1) Tj ET
+0.94 0.97 0.99 rg 273.0 388.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 288.0 402.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 313.0 388.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 328.0 402.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 353.0 388.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 368.0 402.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 393.0 388.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 408.0 402.1 Tm (0) Tj ET
+0.72 0.84 0.94 rg 433.0 388.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 448.0 402.1 Tm (1) Tj ET
+0.15 0.19 0.24 rg BT /F2 8.40 Tf 1 0 0 1 108.0 364.1 Tm (DC) Tj ET
+0.94 0.97 0.99 rg 153.0 348.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 168.0 362.1 Tm (0) Tj ET
+0.19 0.45 0.70 rg 193.0 348.1 38.0 38.0 re f
+1 1 1 rg BT /F2 10.00 Tf 1 0 0 1 208.0 362.1 Tm (5) Tj ET
+0.94 0.97 0.99 rg 233.0 348.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 248.0 362.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 273.0 348.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 288.0 362.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 313.0 348.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 328.0 362.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 353.0 348.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 368.0 362.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 393.0 348.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 408.0 362.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 433.0 348.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 448.0 362.1 Tm (0) Tj ET
+0.15 0.19 0.24 rg BT /F2 8.40 Tf 1 0 0 1 108.0 324.1 Tm (CC) Tj ET
+0.94 0.97 0.99 rg 153.0 308.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 168.0 322.1 Tm (0) Tj ET
+0.50 0.69 0.84 rg 193.0 308.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 208.0 322.1 Tm (2) Tj ET
+0.94 0.97 0.99 rg 233.0 308.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 248.0 322.1 Tm (0) Tj ET
+0.50 0.69 0.84 rg 273.0 308.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 288.0 322.1 Tm (2) Tj ET
+0.94 0.97 0.99 rg 313.0 308.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 328.0 322.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 353.0 308.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 368.0 322.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 393.0 308.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 408.0 322.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 433.0 308.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 448.0 322.1 Tm (0) Tj ET
+0.15 0.19 0.24 rg BT /F2 8.40 Tf 1 0 0 1 108.0 284.1 Tm (CB) Tj ET
+0.94 0.97 0.99 rg 153.0 268.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 168.0 282.1 Tm (0) Tj ET
+0.72 0.84 0.94 rg 193.0 268.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 208.0 282.1 Tm (1) Tj ET
+0.94 0.97 0.99 rg 233.0 268.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 248.0 282.1 Tm (0) Tj ET
+0.72 0.84 0.94 rg 273.0 268.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 288.0 282.1 Tm (1) Tj ET
+0.94 0.97 0.99 rg 313.0 268.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 328.0 282.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 353.0 268.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 368.0 282.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 393.0 268.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 408.0 282.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 433.0 268.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 448.0 282.1 Tm (0) Tj ET
+0.15 0.19 0.24 rg BT /F2 8.40 Tf 1 0 0 1 108.0 244.1 Tm (BB) Tj ET
+0.94 0.97 0.99 rg 153.0 228.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 168.0 242.1 Tm (0) Tj ET
+0.19 0.45 0.70 rg 193.0 228.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 208.0 242.1 Tm (3) Tj ET
+0.94 0.97 0.99 rg 233.0 228.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 248.0 242.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 273.0 228.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 288.0 242.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 313.0 228.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 328.0 242.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 353.0 228.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 368.0 242.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 393.0 228.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 408.0 242.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 433.0 228.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 448.0 242.1 Tm (0) Tj ET
+0.15 0.19 0.24 rg BT /F2 8.40 Tf 1 0 0 1 108.0 204.1 Tm (BA) Tj ET
+0.94 0.97 0.99 rg 153.0 188.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 168.0 202.1 Tm (0) Tj ET
+0.72 0.84 0.94 rg 193.0 188.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 208.0 202.1 Tm (1) Tj ET
+0.94 0.97 0.99 rg 233.0 188.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 248.0 202.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 273.0 188.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 288.0 202.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 313.0 188.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 328.0 202.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 353.0 188.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 368.0 202.1 Tm (0) Tj ET
+0.50 0.69 0.84 rg 393.0 188.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 408.0 202.1 Tm (2) Tj ET
+0.94 0.97 0.99 rg 433.0 188.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 448.0 202.1 Tm (0) Tj ET
+0.15 0.19 0.24 rg BT /F2 8.40 Tf 1 0 0 1 108.0 164.1 Tm (AA) Tj ET
+0.94 0.97 0.99 rg 153.0 148.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 168.0 162.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 193.0 148.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 208.0 162.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 233.0 148.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 248.0 162.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 273.0 148.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 288.0 162.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 313.0 148.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 328.0 162.1 Tm (0) Tj ET
+0.94 0.97 0.99 rg 353.0 148.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 368.0 162.1 Tm (0) Tj ET
+0.72 0.84 0.94 rg 393.0 148.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 408.0 162.1 Tm (1) Tj ET
+0.50 0.69 0.84 rg 433.0 148.1 38.0 38.0 re f
+0.10 0.23 0.36 rg BT /F2 10.00 Tf 1 0 0 1 448.0 162.1 Tm (2) Tj ET
+0.15 0.19 0.24 rg BT /F1 8.80 Tf 1 0 0 1 48.0 118.1 Tm (Figura B: linhas s\343o classes reais, colunas s\343o classes previstas. Acertos na diagonal: 11 de 29; acur\341cia 37,93%. Esta figura) Tj ET
+0.15 0.19 0.24 rg BT /F1 8.80 Tf 1 0 0 1 48.0 105.1 Tm (reproduz os n\372meros publicados no relat\363rio t\351cnico.) Tj ET
+0.80 0.84 0.88 RG 0.5 w 48 43 m 547.28 43 l S
+0.42 0.48 0.55 rg BT /F1 7.4 Tf 1 0 0 1 48 31 Tm (StudyTrack IA - Documento T\351cnico v3.0 - consolida\347\343o para confer\352ncia) Tj ET
+0.36 0.41 0.46 rg BT /F1 7.5 Tf 1 0 0 1 467.28 31 Tm (P\341gina 8 de 8) Tj ET
+endstream
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000016 00000 n 
+0000000065 00000 n 
+0000000170 00000 n 
+0000000267 00000 n 
+0000000369 00000 n 
+0000000464 00000 n 
+0000000616 00000 n 
+0000007957 00000 n 
+0000008109 00000 n 
+0000015168 00000 n 
+0000015322 00000 n 
+0000024099 00000 n 
+0000024253 00000 n 
+0000030082 00000 n 
+0000030236 00000 n 
+0000045187 00000 n 
+0000045341 00000 n 
+0000052821 00000 n 
+0000052975 00000 n 
+0000055158 00000 n 
+0000055312 00000 n 
+trailer
+<< /Size 22 /Root 1 0 R >>
+startxref
+65532
+%%EOF
