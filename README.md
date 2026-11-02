@@ -43,21 +43,28 @@ Essas análises ajudam a compreender melhor o comportamento acadêmico dos estud
 
 ## TED 03 — Modelagem preditiva e Machine Learning
 
-A TED 03 dá continuidade às análises anteriores com a classificação multiclasse de `grade`. O grupo confirmou o uso das 31 variáveis preditoras, divisão estratificada 80/20, validação cruzada com cinco partes e semente 42.
+A TED 03 mantém a classificação retrospectiva de `grade` em oito classes, a partir das 31 variáveis preditoras da base preparada na TED 02. Foram comparados Regressão Logística, Árvore de Decisão e Random Forest com divisão estratificada 80/20, validação cruzada de cinco partes e semente 42. As variáveis nominais foram codificadas com One-Hot Encoding, e as ordinais foram padronizadas apenas na Regressão Logística.
 
-O notebook [TED03_modelagem.ipynb](notebooks/TED03/TED03_modelagem.ipynb) apresenta:
+**Arquivos centrais para a entrega:**
 
-- contexto do projeto e justificativa metodológica;
-- divisão treino/teste, com o teste reservado para a etapa final;
-- tratamento misto das variáveis (16 nominais com One-Hot Encoding e 15 ordinais com códigos ordenados);
-- pipelines independentes para Regressão Logística, Árvore de Decisão e Random Forest;
-- comparação por F1-macro e acurácia na validação cruzada, com gráficos;
-- seção condicionada à escolha do grupo para avaliação final no teste e matriz de confusão;
-- roteiro de interpretação, limites, vieses e registro de autoria.
+- **[Documento Técnico v3.0 acumulativo](docs/TED03_Documento_Tecnico_v3_Consolidado.md)**: preserva as informações das TEDs 01 e 02 e incorpora protocolo, resultados, interpretação e limitações da TED 03.
+- **[Notebook executado](notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb)**: 12 células de código executadas, 17 saídas, avaliação e matriz de confusão. **Execução local, não comprovada no Google Colab.**
+- **[Notebook original](notebooks/TED03/TED03_modelagem.ipynb)**: versão original mantida para rastreabilidade.
+- **[Resultados técnicos](docs/TED03_RESULTADOS_TECNICOS_2026-11-02.md)**: métricas, tabela de validação cruzada e relatório por classe.
+- **[Declaração de uso de IA](docs/TED03_Declaracao_Uso_IA.md)**: registro das ferramentas e etapas de apoio, com responsabilidade de conferência pela equipe.
+- **[Situação da publicação](docs/TED03_STATUS_PUBLICACAO_2026-11-02.md)**: distingue evidência técnica de conferência acadêmica.
 
-**Separação das entregas:** o notebook da TED 03 contém códigos, gráficos e verificações executáveis; o Documento Técnico v3.0 será um relatório acadêmico separado, acumulando e preservando as TEDs 01 e 02. O relatório não deve ser substituído pelo conteúdo do Colab.
+**Resultados registrados:** Random Forest com maior F1-macro médio de validação cruzada (0,227408); teste reservado de 29 registros com F1-macro 0,288095, acurácia de 37,93% e 11 acertos. O desempenho é limitado e não valida previsão antecipada nem priorização automática no MVP.
 
-**Status:** o notebook foi verificado tecnicamente, mas a escolha do classificador, o teste final e as conclusões dependem da conferência do grupo. O Documento Técnico v3.0 ainda precisa ser atualizado a partir do arquivo editável da TED 02.
+**Nota metodológica:** a escolha do Random Forest seguiu uma regra computacional previamente definida; a revisão das interpretações, a autoria e a confirmação da equipe permanecem sob responsabilidade dos integrantes. O Pull Request nº 1 está em rascunho, sem merge para `main`.
+
+### Como executar a TED 03
+
+1. Acesse o notebook executado a partir do link acima, usando Jupyter ou Google Colab.
+2. Instale, quando necessário, `pandas`, `numpy`, `matplotlib` e `scikit-learn`. O ambiente que gerou as saídas locais utilizou Python 3.13.5 e scikit-learn 1.8.0; versões diferentes podem exigir compatibilidade do parâmetro `sparse_output`.
+3. Execute as células sequencialmente. O notebook lê `data/processed/dataset_modelagem.csv` quando presente; caso contrário, utiliza URL pública do CSV previamente versionado.
+4. Confirme a dimensão `145 × 32`, a divisão `116/29` e as saídas da validação cruzada e do teste.
+5. Diferencie os resultados já registrados da sua própria execução. Reexecutar localmente ou no Colab não significa que isso já tenha sido comprovado para a submissão.
 
 ## Estrutura do repositório
 
@@ -112,13 +119,15 @@ O arquivo `TED02_limpeza_EDA.ipynb` reúne os códigos utilizados para:
 
 ### notebooks/TED03
 
-Contém o caderno técnico da TED 03, com preparação para modelagem, comparação dos três classificadores, validação cruzada e orientação para o teste final condicionado à decisão do grupo.
+Contém `TED03_modelagem.ipynb` e `TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb`. A reprodução local publicada compara os três classificadores, aplica o critério de F1-macro, calcula o teste final e apresenta matriz de confusão e relatórios por classe. A documentação acumulativa e os resultados estão em `docs/`.
 
 ## Tecnologias utilizadas
 
 - Python
 - Pandas
+- NumPy
 - Matplotlib
+- Scikit-learn
 - Jupyter Notebook
 - Git e GitHub
 
