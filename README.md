@@ -1,150 +1,104 @@
 # StudyTrack IA
 
-O **StudyTrack IA** é um projeto acadêmico desenvolvido com o objetivo de ajudar estudantes universitários a organizar melhor sua rotina de estudos e acompanhar suas atividades de forma mais clara.
+Projeto acadêmico do curso de **Análise e Desenvolvimento de Sistemas (ADS)** do Centro Universitário de Balsas (**UNIBALSAS**). O StudyTrack IA propõe apoiar estudantes no cadastro de disciplinas e atividades, acompanhamento de prazos, calendário e visualização de prioridades.
 
-A proposta surgiu a partir de um problema comum no ambiente acadêmico: lidar ao mesmo tempo com diferentes disciplinas, trabalhos, avaliações, prazos e prioridades. O sistema busca reunir essas informações em um único ambiente e, futuramente, utilizar recursos de Inteligência Artificial para apoiar o estudante na tomada de decisões sobre o que precisa de mais atenção em cada momento.
+Este repositório reúne a continuidade da disciplina **Big Data e Ciências de Dados**, preservando as etapas de seleção da base (TED 01), preparação e análise exploratória (TED 02) e modelagem com Machine Learning (TED 03).
 
-## Objetivo do projeto
-
-O principal objetivo do StudyTrack IA é apoiar o planejamento acadêmico por meio do registro e acompanhamento de disciplinas, atividades, prazos e informações relacionadas ao desempenho do estudante.
-
-Entre as funcionalidades previstas para o MVP estão:
-
-- cadastro de disciplinas;
-- cadastro e acompanhamento de atividades;
-- organização por prazos;
-- definição de prioridades;
-- calendário acadêmico;
-- painel de acompanhamento;
-- uso de Inteligência Artificial como apoio ao planejamento e à análise da rotina de estudos.
-
-## Big Data e Ciência de Dados
-
-Este repositório também reúne as etapas desenvolvidas na disciplina de **Big Data e Ciências de Dados**.
-
-Na **TED 01**, foi selecionado o conjunto de dados **Higher Education Students Performance Evaluation**, disponibilizado pelo UCI Machine Learning Repository. A base contém informações relacionadas a hábitos de estudo, frequência às aulas, preparação para avaliações, desempenho anterior e nota final de estudantes do ensino superior.
-
-Na **TED 02**, a mesma base foi utilizada para o processo de inspeção, preparação e análise exploratória dos dados. Foram verificadas questões como valores ausentes, registros duplicados, inconsistências e possíveis problemas de qualidade.
-
-A análise confirmou que a base possui boa integridade, sem valores ausentes, registros duplicados ou códigos fora das faixas documentadas. Por isso, o principal tratamento realizado foi a organização e padronização dos nomes das variáveis para facilitar a leitura e as análises posteriores.
-
-Também foram realizadas análises sobre:
-
-- distribuição das notas finais;
-- horas semanais de estudo;
-- frequência às aulas;
-- impacto de projetos e atividades;
-- desempenho no semestre anterior;
-- relações entre algumas variáveis e o desempenho acadêmico.
-
-Os resultados mostraram que o desempenho acadêmico não pode ser explicado por um único fator. O histórico acadêmico, a frequência e outros aspectos da rotina apresentaram relações relevantes, enquanto o número de horas de estudo, analisado isoladamente, não apresentou uma relação linear simples com a nota final.
-
-Essas análises ajudam a compreender melhor o comportamento acadêmico dos estudantes, mas a base utilizada não possui informações como prazo das atividades, peso das avaliações ou prioridade das tarefas. Por isso, ela não é suficiente, sozinha, para representar o mecanismo de priorização do StudyTrack IA.
-
-## TED 03 — Modelagem preditiva e Machine Learning
-
-A TED 03 dá continuidade às análises anteriores com a classificação multiclasse de `grade`. O grupo confirmou o uso das 31 variáveis preditoras, divisão estratificada 80/20, validação cruzada com cinco partes e semente 42.
-
-O notebook [TED03_modelagem.ipynb](notebooks/TED03/TED03_modelagem.ipynb) apresenta:
-
-- contexto do projeto e justificativa metodológica;
-- divisão treino/teste, com o teste reservado para a etapa final;
-- tratamento misto das variáveis (16 nominais com One-Hot Encoding e 15 ordinais com códigos ordenados);
-- pipelines independentes para Regressão Logística, Árvore de Decisão e Random Forest;
-- comparação por F1-macro e acurácia na validação cruzada, com gráficos;
-- seção condicionada à escolha do grupo para avaliação final no teste e matriz de confusão;
-- roteiro de interpretação, limites, vieses e registro de autoria.
-
-**Separação das entregas:** o notebook da TED 03 contém códigos, gráficos e verificações executáveis; o Documento Técnico v3.0 será um relatório acadêmico separado, acumulando e preservando as TEDs 01 e 02. O relatório não deve ser substituído pelo conteúdo do Colab.
-
-**Status:** o notebook foi verificado tecnicamente, mas a escolha do classificador, o teste final e as conclusões dependem da conferência do grupo. O Documento Técnico v3.0 ainda precisa ser atualizado a partir do arquivo editável da TED 02.
-
-## Estrutura do repositório
-
-```text
-StudyTrack_IA/
-│
-├── data/
-│   ├── raw/
-│   │   └── DATA.csv
-│   │
-│   └── processed/
-│       ├── dataset_tratado.csv
-│       └── dataset_modelagem.csv
-│
-├── notebooks/
-│   ├── TED02/
-│   │   └── TED02_limpeza_EDA.ipynb
-│   └── TED03/
-│       └── TED03_modelagem.ipynb
-│
-└── README.md
-```
-
-### data/raw
-
-Contém o conjunto de dados original, preservado sem alterações.
-
-- `DATA.csv`: base original utilizada no projeto.
-
-### data/processed
-
-Contém as versões preparadas durante a TED 02.
-
-- `dataset_tratado.csv`: mantém os registros da base original, mas utiliza nomes de colunas mais descritivos.
-- `dataset_modelagem.csv`: versão preparada para futuras etapas de modelagem, sem o identificador do estudante.
-
-### notebooks/TED02
-
-Contém o notebook utilizado para reproduzir o processo de inspeção, preparação e análise exploratória.
-
-O arquivo `TED02_limpeza_EDA.ipynb` reúne os códigos utilizados para:
-
-- carregar o conjunto de dados;
-- verificar valores ausentes;
-- identificar registros duplicados;
-- validar os códigos das variáveis;
-- renomear e organizar as colunas;
-- calcular estatísticas descritivas;
-- gerar gráficos;
-- analisar relações entre variáveis;
-- exportar as bases preparadas.
-
-### notebooks/TED03
-
-Contém o caderno técnico da TED 03, com preparação para modelagem, comparação dos três classificadores, validação cruzada e orientação para o teste final condicionado à decisão do grupo.
-
-## Tecnologias utilizadas
-
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
-- Git e GitHub
-
-## Continuidade do projeto
-
-As próximas etapas devem continuar utilizando o mesmo histórico de desenvolvimento, mantendo a separação entre dados originais, dados processados, códigos e documentos.
-
-No contexto do StudyTrack IA, análises futuras poderão utilizar dados próprios do sistema, como:
-
-- prazo da atividade;
-- peso ou valor da atividade;
-- disciplina;
-- status;
-- nível de prioridade;
-- esforço estimado;
-- histórico de conclusão.
-
-Essas informações estarão mais diretamente relacionadas ao objetivo central do projeto, que é auxiliar o estudante na organização e priorização de suas atividades acadêmicas.
-
-## Projeto acadêmico
-
-Projeto desenvolvido no curso de **Análise e Desenvolvimento de Sistemas**, no **Centro Universitário de Balsas (UNIBALSAS)**.
-
-Integrantes:
+## Integrantes
 
 - Caio Vinícius Lima Soares
 - David Rodrigues Costa
 - Francisco Wesley de Souza Dias
 - Pedro Henrique Guedes
+
+**Professor:** Alex Rogaleski Marques  
+**Período:** 2026.2
+
+## Etapas do projeto de dados
+
+| Etapa | Conteúdo | Documentação |
+| --- | --- | --- |
+| TED 01 | Definição do problema, necessidades de dados e seleção de base pública. | [PDF da TED 01](docs/TED01.pdf) |
+| TED 02 | Inspeção, tratamento, análise exploratória, estatísticas e visualizações. | [PDF da TED 02](docs/TED02.pdf) |
+| TED 03 | Classificação multiclasse de desempenho, comparação de classificadores e avaliação final. | [PDF final da TED 03 — 21 páginas](docs/TED03.pdf) |
+
+**Base utilizada:** [Higher Education Students Performance Evaluation — UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/856/higher+education+students+performance+evaluation). O conjunto contém 145 observações e, na versão de modelagem, 31 preditoras e a variável-alvo `grade` com oito classes. A fonte original possui licença CC BY 4.0.
+
+O estudo é **retrospectivo**, não uma validação de previsão antecipada de notas nem do sistema de priorização de tarefas do MVP.
+
+## Organização dos arquivos
+
+```text
+StudyTrack_IA/
+├── README.md
+├── docs/
+│   ├── TED01.pdf
+│   ├── TED02.pdf
+│   ├── TED03.pdf
+│   ├── TED03_Documento_Tecnico_v3_Consolidado.pdf
+│   ├── TED03_Documento_Tecnico_v3_Consolidado.md
+│   ├── TED03_RESULTADOS_TECNICOS_2026-11-02.md
+│   └── TED03_STATUS_PUBLICACAO_2026-11-02.md
+├── data/
+│   ├── raw/
+│   │   └── DATA.csv
+│   └── processed/
+│       ├── dataset_tratado.csv
+│       └── dataset_modelagem.csv
+└── notebooks/
+    ├── TED02/
+    │   └── TED02_limpeza_EDA.ipynb
+    └── TED03/
+        ├── TED03_modelagem.ipynb
+        └── TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb
+```
+
+A TED 01 é documental e, por isso, não exige um notebook próprio. As versões antigas dos arquivos permanecem no histórico de commits do Git.
+
+### Dados
+
+- `data/raw/DATA.csv`: conjunto original, preservado.
+- `data/processed/dataset_tratado.csv`: colunas renomeadas para leitura e análise.
+- `data/processed/dataset_modelagem.csv`: 145 registros e 32 colunas, sem o identificador de estudante.
+
+### Notebooks
+
+- [TED 02 — limpeza e análise exploratória](notebooks/TED02/TED02_limpeza_EDA.ipynb)
+- [TED 03 — notebook de modelagem](notebooks/TED03/TED03_modelagem.ipynb)
+- [TED 03 — reprodução local com saídas](notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb)
+
+A reprodução publicada é **local**; ela não deve ser apresentada como execução comprovada no Google Colab.
+
+## Tecnologias
+
+Python, Pandas, NumPy, Matplotlib, Scikit-learn, Jupyter Notebook, Git e GitHub.
+
+## Como executar os códigos
+
+1. Clone o repositório e abra a pasta `StudyTrack_IA`.
+2. Crie um ambiente Python, de preferência com `venv`.
+3. Instale as bibliotecas necessárias:
+
+   ```bash
+   pip install pandas numpy matplotlib scikit-learn jupyter
+   ```
+
+4. Inicie o Jupyter:
+
+   ```bash
+   jupyter notebook
+   ```
+
+5. Abra o notebook da TED desejada e execute as células na ordem. A base preparada da TED 03 está em `data/processed/dataset_modelagem.csv`.
+
+**Verificações esperadas na TED 03:** base de 145 × 32; divisão estratificada em 116 registros de treinamento e 29 de teste; resultados de validação cruzada e teste reservado documentados no notebook. Versões diferentes das bibliotecas podem demandar ajustes de compatibilidade.
+
+## Resultados da TED 03
+
+Foram comparados Regressão Logística, Árvore de Decisão e Random Forest com validação cruzada estratificada de cinco partes e **F1-macro** como métrica principal. Na reprodução técnica registrada, o Random Forest apresentou F1-macro médio de **0,227408** na validação cruzada. No teste reservado, obteve **0,288095** de F1-macro, **37,93%** de acurácia e **11 acertos em 29 registros**.
+
+Esses resultados são limitados pelo tamanho da amostra e pelo desequilíbrio entre classes. Eles não demonstram desempenho suficiente para uso prático nem a priorização automática de atividades do StudyTrack IA.
+
+## Continuidade e histórico
+
+Este mesmo repositório reúne as TEDs anteriores e a TED 03. Os dados originais, as versões processadas, os notebooks e os documentos permanecem separados para facilitar reprodução e conferência. Antes de apresentar resultados, confira a versão do notebook, as saídas e o documento técnico correspondente.
