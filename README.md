@@ -47,11 +47,11 @@ A TED 03 mantém a classificação retrospectiva de `grade` em oito classes, a p
 
 **Arquivos centrais para a entrega:**
 
-- **[Documento Técnico v3.0 acumulativo](docs/TED03_Documento_Tecnico_v3_Consolidado.md)**: preserva as informações das TEDs 01 e 02 e incorpora protocolo, resultados, interpretação e limitações da TED 03.
+- **[Documento Técnico v3.0 acumulativo (PDF)](docs/TED03_Documento_Tecnico_v3_Consolidado.pdf)** ([texto acessível](docs/TED03_Documento_Tecnico_v3_Consolidado.md)): preserva as informações das TEDs 01 e 02 e incorpora protocolo, resultados, interpretação e limitações da TED 03.
 - **[Notebook executado](notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb)**: 12 células de código executadas, 17 saídas, avaliação e matriz de confusão. **Execução local, não comprovada no Google Colab.**
 - **[Notebook original](notebooks/TED03/TED03_modelagem.ipynb)**: versão original mantida para rastreabilidade.
 - **[Resultados técnicos](docs/TED03_RESULTADOS_TECNICOS_2026-11-02.md)**: métricas, tabela de validação cruzada e relatório por classe.
-- **[Declaração de uso de IA](docs/TED03_Declaracao_Uso_IA.md)**: registro das ferramentas e etapas de apoio, com responsabilidade de conferência pela equipe.
+- **[Declaração de uso de IA (PDF)](docs/TED03_Declaracao_Uso_IA.pdf)** ([texto acessível](docs/TED03_Declaracao_Uso_IA.md)): registro das ferramentas e etapas de apoio, com responsabilidade de conferência pela equipe.
 - **[Situação da publicação](docs/TED03_STATUS_PUBLICACAO_2026-11-02.md)**: distingue evidência técnica de conferência acadêmica.
 
 **Resultados registrados:** Random Forest com maior F1-macro médio de validação cruzada (0,227408); teste reservado de 29 registros com F1-macro 0,288095, acurácia de 37,93% e 11 acertos. O desempenho é limitado e não valida previsão antecipada nem priorização automática no MVP.
