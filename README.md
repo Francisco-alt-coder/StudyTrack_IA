@@ -20,7 +20,7 @@ Este repositório reúne a continuidade da disciplina **Big Data e Ciências de 
 | --- | --- | --- |
 | TED 01 | Definição do problema, necessidades de dados e seleção de base pública. | [PDF da TED 01](docs/TED01.pdf) |
 | TED 02 | Inspeção, tratamento, análise exploratória, estatísticas e visualizações. | [PDF da TED 02](docs/TED02.pdf) |
-| TED 03 | Classificação multiclasse de desempenho, comparação de classificadores e avaliação final. | [Documento Técnico v3.0](docs/TED03_Documento_Tecnico_v3_Consolidado.pdf) |
+| TED 03 | Classificação multiclasse de desempenho, comparação de classificadores e avaliação final. | [PDF final da TED 03 — 21 páginas](docs/TED03.pdf) |
 
 **Base utilizada:** [Higher Education Students Performance Evaluation — UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/856/higher+education+students+performance+evaluation). O conjunto contém 145 observações e, na versão de modelagem, 31 preditoras e a variável-alvo `grade` com oito classes. A fonte original possui licença CC BY 4.0.
 
@@ -34,6 +34,7 @@ StudyTrack_IA/
 ├── docs/
 │   ├── TED01.pdf
 │   ├── TED02.pdf
+│   ├── TED03.pdf
 │   ├── TED03_Documento_Tecnico_v3_Consolidado.pdf
 │   ├── TED03_Documento_Tecnico_v3_Consolidado.md
 │   ├── TED03_RESULTADOS_TECNICOS_2026-11-02.md
