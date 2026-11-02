@@ -1,6 +1,6 @@
 # STUDYTRACK IA: seleção, preparação, análise e modelagem de dados
 
-**Documento Técnico v3.0 — versão acumulativa consolidada para conferência acadêmica**  
+**Documento Técnico v3.0 — versão acumulativa consolidada**  
 **Instituição:** Centro Universitário de Balsas (UNIBALSAS)  
 **Curso:** Análise e Desenvolvimento de Sistemas — 2026.2  
 **Disciplina:** Big Data e Ciências de Dados  
@@ -8,7 +8,7 @@
 **Autores:** Caio Vinícius Lima Soares; David Rodrigues Costa; Francisco Wesley de Souza Dias; Pedro Henrique Guedes.  
 **Local e data:** Balsas, MA, 02 de novembro de 2026.
 
-> **Condição de uso:** consolidação de registros já existentes das TEDs 01, 02 e 03, para conferência da equipe. Não constitui aprovação formal pelo professor ou validação coletiva documentada. O notebook foi executado localmente; execução no Google Colab não foi comprovada. Não se alteraram os resultados já publicados. Os PDFs originais das TEDs 01 e 02 permanecem no repositório como evidências integrais das etapas anteriores.
+> **Escopo e rastreabilidade:** este documento reúne registros das TEDs 01, 02 e 03. A reprodução do notebook foi executada localmente; a execução no Google Colab não foi comprovada. Os resultados experimentais publicados foram preservados, assim como os PDFs das TEDs anteriores. Este documento não representa avaliação ou aprovação pelo professor.
 
 ## 1. Introdução
 
@@ -223,19 +223,19 @@ O experimento utilizou base pública. A exclusão de `student_id` entre os predi
 
 O trabalho documenta uma **demonstração técnica de classificação retrospectiva**; não valida previsão antecipada de desempenho nem o algoritmo de priorização do StudyTrack IA. Os experimentos ajudam a identificar requisitos de dados, limites de aplicação e cuidados para uma futura avaliação do MVP.
 
-**Rastreabilidade:** `notebooks/TED03/TED03_modelagem.ipynb` (original preservado), `notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb` (12 células de código executadas, 17 saídas), `docs/TED03_RESULTADOS_TECNICOS_2026-11-02.md` (métricas e matriz). A execução registrada é **local**; não há comprovação de execução no Colab oficial. O Pull Request nº 1 está em rascunho, sem merge para `main`.
+**Rastreabilidade:** `notebooks/TED03/TED03_modelagem.ipynb` (original preservado), `notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb` (12 células de código executadas, 17 saídas), `docs/TED03_RESULTADOS_TECNICOS_2026-11-02.md` (métricas e matriz). A execução registrada é **local**; não há comprovação de execução no Colab oficial. O Pull Request nº 1 foi incorporado à branch principal (`main`) em 02/11/2026.
 
 ## 20. Conclusão da TED 03
 
 A TED 03 deu continuidade à seleção, à preparação e à análise exploratória dos dados por meio da comparação de três classificadores multiclasse. O Random Forest liderou a validação cruzada pelo critério técnico anteriormente registrado (F1-macro médio de 0,227408). No teste reservado, obteve F1-macro de 0,288095 e acurácia de 37,93%, com 11 acertos em 29 observações. O desempenho limitado, o risco de sobreajuste, o desequilíbrio e o tamanho das classes impedem considerar o modelo pronto para aplicação operacional.
 
-A investigação contribui para a formação metodológica e para a identificação de requisitos de dados e limitações, mas não demonstra melhoria na priorização de tarefas do MVP. Esta versão consolida evidências técnicas e deverá ter suas interpretações e sua autoria conferidas pelos integrantes antes da submissão.
+A investigação contribui para a formação metodológica e para a identificação de requisitos de dados e limitações, mas não demonstra melhoria na priorização de tarefas do MVP. Esta versão consolida evidências técnicas. Os integrantes são responsáveis pela autoria, pelas interpretações e pela conferência final dos materiais apresentados.
 
 ## Referências e materiais de rastreabilidade
 
 - YILMAZ, Nevriye; ŞEKEROĞLU, Boran. **Higher Education Students Performance Evaluation**. UCI Machine Learning Repository. DOI: [10.24432/C51G82](https://doi.org/10.24432/C51G82). Dados coletados em 2019, disponibilizados na UCI em 2023.
 - SCIKIT-LEARN DEVELOPERS. [Cross-validation: evaluating estimator performance](https://scikit-learn.org/stable/modules/cross_validation.html). Documentação.
-- STUDYTRACK IA. [Repositório e TEDs anteriores](https://github.com/Francisco-alt-coder/StudyTrack_IA). PDFs `TED_01_Big_Data_StudyTrack_IA.pdf` e `TED02_StudyTrack_.pdf`.
+- STUDYTRACK IA. [Repositório e TEDs anteriores](https://github.com/Francisco-alt-coder/StudyTrack_IA). PDFs `docs/TED01.pdf` e `docs/TED02.pdf`.
 - STUDYTRACK IA. [Pull Request nº 1 — TED 03](https://github.com/Francisco-alt-coder/StudyTrack_IA/pull/1): notebook de reprodução local e resultados técnicos de 02/11/2026.
 
 ## Registro de uso da Inteligência Artificial
