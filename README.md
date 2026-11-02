@@ -22,6 +22,8 @@ Este repositório reúne a continuidade da disciplina **Big Data e Ciências de 
 | TED 02 | Inspeção, tratamento, análise exploratória, estatísticas e visualizações. | [PDF da TED 02](docs/TED02.pdf) |
 | TED 03 | Classificação multiclasse de desempenho, comparação de classificadores e avaliação final. | [PDF final da TED 03 — 21 páginas](docs/TED03.pdf) |
 
+**Declaração de uso de IA da TED 03:** [versão em PDF](docs/Declaracao_Uso_IA_TED03.pdf) e [transcrição em Markdown](docs/Declaracao_Uso_IA_TED03.md). O PDF publicado foi reconstituído a partir do texto do documento de seis páginas fornecido pela equipe; não é uma cópia binária do original.
+
 **Base utilizada:** [Higher Education Students Performance Evaluation — UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/856/higher+education+students+performance+evaluation). O conjunto contém 145 observações e, na versão de modelagem, 31 preditoras e a variável-alvo `grade` com oito classes. A fonte original possui licença CC BY 4.0.
 
 O estudo é **retrospectivo**, não uma validação de previsão antecipada de notas nem do sistema de priorização de tarefas do MVP.
@@ -35,6 +37,8 @@ StudyTrack_IA/
 │   ├── TED01.pdf
 │   ├── TED02.pdf
 │   ├── TED03.pdf
+│   ├── Declaracao_Uso_IA_TED03.pdf
+│   ├── Declaracao_Uso_IA_TED03.md
 │   ├── TED03_Documento_Tecnico_v3_Consolidado.pdf
 │   ├── TED03_Documento_Tecnico_v3_Consolidado.md
 │   ├── TED03_RESULTADOS_TECNICOS_2026-11-02.md
@@ -98,6 +102,10 @@ Python, Pandas, NumPy, Matplotlib, Scikit-learn, Jupyter Notebook, Git e GitHub.
 Foram comparados Regressão Logística, Árvore de Decisão e Random Forest com validação cruzada estratificada de cinco partes e **F1-macro** como métrica principal. Na reprodução técnica registrada, o Random Forest apresentou F1-macro médio de **0,227408** na validação cruzada. No teste reservado, obteve **0,288095** de F1-macro, **37,93%** de acurácia e **11 acertos em 29 registros**.
 
 Esses resultados são limitados pelo tamanho da amostra e pelo desequilíbrio entre classes. Eles não demonstram desempenho suficiente para uso prático nem a priorização automática de atividades do StudyTrack IA.
+
+## Situação de publicação
+
+O [Pull Request nº 1](https://github.com/Francisco-alt-coder/StudyTrack_IA/pull/1) foi incorporado à branch principal (`main`) em 02/11/2026. O Documento Técnico final de 21 páginas e a declaração textual da TED 03 estão publicados. A execução registrada do notebook é local, não uma execução atestada no Colab. A submissão do link do repositório no Portal do Aluno deve ser feita pelos responsáveis.
 
 ## Continuidade e histórico
 
