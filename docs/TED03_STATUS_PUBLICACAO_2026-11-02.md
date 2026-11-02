@@ -9,8 +9,8 @@
 - **Comparação técnica:** Regressão Logística, Árvore de Decisão e Random Forest. Maior F1-macro médio na validação cruzada: Random Forest, **0,227408**.
 - **Teste final reservado:** F1-macro **0,288095**, acurácia **0,379310**, **11/29**. Matriz de confusão e relatório por classe publicados.
 - **Notebook de reprodução local:** `notebooks/TED03/TED03_REPRODUCAO_LOCAL_EXECUTADA.ipynb`, com **12 células de código executadas** e **17 saídas**, incluindo gráficos e matriz.
-- **Documento Técnico v3.0 acumulativo:** agora publicado em `docs/TED03_Documento_Tecnico_v3_Consolidado.md`, abrangendo as etapas anteriores, protocolo, métricas, limitações e relação com o MVP.
-- **Declaração de IA atualizada:** `docs/TED03_Declaracao_Uso_IA.md`, coerente com as 12 células do notebook publicado.
+- **Documento Técnico v3.0 acumulativo:** publicado em `docs/TED03_Documento_Tecnico_v3_Consolidado.pdf` e `docs/TED03_Documento_Tecnico_v3_Consolidado.md`, abrangendo as etapas anteriores, protocolo, métricas, limitações e relação com o MVP.
+- **Declaração de IA atualizada:** `docs/TED03_Declaracao_Uso_IA.pdf` e `docs/TED03_Declaracao_Uso_IA.md`, coerente com as 12 células do notebook publicado.
 - **TEDs anteriores:** PDFs originais permanecem na raiz do repositório, sem substituição.
 
 ## Limites e condições acadêmicas
