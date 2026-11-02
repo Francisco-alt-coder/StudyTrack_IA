@@ -1,0 +1,268 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Length 4152 >>
+stream
+0.67 0.14 0.18 rg 67 762 465 2 re f
+BT /F2 26.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 70.0 786.0 Tm (UB) Tj ET
+BT /F2 18.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 124.0 788.0 Tm (UNIBALSAS) Tj ET
+BT /F1 10.0 Tf 0.52 0.25 0.29 rg 1 0 0 1 124.0 774.0 Tm (Centro Universitário) Tj ET
+0.68 0.15 0.18 rg 66 744 466 16 re f
+BT /F2 9.1 Tf 1 1 1 rg 1 0 0 1 211.0 749.0 Tm (ANÁLISE E DESENVOLVIMENTO DE SISTEMAS) Tj ET
+0.68 0.15 0.18 RG 1.2 w 92 56 m 526 56 l S
+BT /F1 7.1 Tf 0.40 0.40 0.40 rg 1 0 0 1 273.0 41.0 Tm (Centro Universitário de Balsas   |   Big Data e Ciência de Dados) Tj ET
+BT /F2 15.2 Tf 0 0 0 rg 1 0 0 1 72.0 710.0 Tm (Declaração de Uso de Inteligência Artificial) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 676.5 Tm (Projeto: StudyTrack IA) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 657.3 Tm (Disciplina: Big Data e Ciência de Dados) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 638.1 Tm (Atividade: TED 03 – Modelagem Preditiva e Machine Learning) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 615.9 Tm (Declaro/Declaramos, para os devidos fins, que o conteúdo apresentado nesta atividade é de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 600.7 Tm (minha/nossa responsabilidade, incluindo sua autoria, análise, validação e veracidade.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 578.5 Tm (Durante a elaboração desta atividade:) Tj ET
+BT /F1 10.1 Tf 0 0 0 rg 1 0 0 1 80.0 556.3 Tm (• \( \) Não foram utilizadas ferramentas de Inteligência Artificial.) Tj ET
+BT /F1 10.1 Tf 0 0 0 rg 1 0 0 1 80.0 539.0 Tm (• \(X\) Foram utilizadas ferramentas de Inteligência Artificial, conforme descrito abaixo.) Tj ET
+BT /F2 11.8 Tf 0 0 0 rg 1 0 0 1 72.0 518.7 Tm (1. Ferramentas utilizadas) Tj ET
+BT /F1 9.8 Tf 0 0 0 rg 1 0 0 1 72.0 489.7 Tm (Ferramenta: Finalidade de utilização) Tj ET
+BT /F1 9.8 Tf 0 0 0 rg 1 0 0 1 72.0 473.7 Tm (ChatGPT \(OpenAI\): Consulta conceitual de Machine Learning, apoio à sintaxe em Python e) Tj ET
+BT /F1 9.8 Tf 0 0 0 rg 1 0 0 1 72.0 459.7 Tm (conferência da estrutura do Documento Técnico.) Tj ET
+BT /F1 9.8 Tf 0 0 0 rg 1 0 0 1 72.0 443.7 Tm (Claude \(Anthropic\): Orientação de formatação, sumário e apresentação acadêmica do Documento) Tj ET
+BT /F1 9.8 Tf 0 0 0 rg 1 0 0 1 72.0 429.7 Tm (Técnico v3.0.) Tj ET
+BT /F2 11.8 Tf 0 0 0 rg 1 0 0 1 72.0 410.7 Tm (2. Forma de utilização) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 381.7 Tm (Na TED 03 do projeto StudyTrack IA, o ChatGPT foi consultado para esclarecer conceitos e) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 366.5 Tm (sintaxe de Machine Learning, além de questões sobre preparação, validação, avaliação de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 351.3 Tm (modelos, documentação e aspectos éticos. O Claude auxiliou na apresentação acadêmica, com) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 336.1 Tm (orientações sobre fonte, espaçamento, sumário e elementos gráficos. As consultas tiveram) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 320.9 Tm (finalidade conceitual, técnica e editorial.) Tj ET
+BT /F2 11.8 Tf 0 0 0 rg 1 0 0 1 72.0 298.7 Tm (3. Validação e contribuição) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 269.7 Tm (A verificação do apoio considera a documentação oficial das bibliotecas, os procedimentos) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 254.5 Tm (registrados no notebook e a comparação com os documentos das TEDs anteriores e as exigências) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 239.3 Tm (da atividade. Consultas de IA não substituem a execução dos códigos, a conferência das) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 224.1 Tm (saídas nem a responsabilidade da equipe pelas decisões metodológicas, análises e resultados) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 208.9 Tm (apresentados.) Tj ET
+BT /F2 11.8 Tf 0 0 0 rg 1 0 0 1 72.0 186.7 Tm (4. Evidências de utilização) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 157.7 Tm (As evidências a seguir descrevem a finalidade e os limites das consultas relatadas. Os registros) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 142.5 Tm (comprobatórios devem corresponder às conversas efetivamente realizadas, sem criação de capturas) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 127.3 Tm (ou históricos artificiais.) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 4441 >>
+stream
+0.67 0.14 0.18 rg 67 762 465 2 re f
+BT /F2 26.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 70.0 786.0 Tm (UB) Tj ET
+BT /F2 18.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 124.0 788.0 Tm (UNIBALSAS) Tj ET
+BT /F1 10.0 Tf 0.52 0.25 0.29 rg 1 0 0 1 124.0 774.0 Tm (Centro Universitário) Tj ET
+0.68 0.15 0.18 rg 66 744 466 16 re f
+BT /F2 9.1 Tf 1 1 1 rg 1 0 0 1 211.0 749.0 Tm (ANÁLISE E DESENVOLVIMENTO DE SISTEMAS) Tj ET
+0.68 0.15 0.18 RG 1.2 w 92 56 m 526 56 l S
+BT /F1 7.1 Tf 0.40 0.40 0.40 rg 1 0 0 1 273.0 41.0 Tm (Centro Universitário de Balsas   |   Big Data e Ciência de Dados) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 710.0 Tm (EVIDÊNCIA 01 – ESCLARECIMENTO DE CONCEITOS DE MACHINE LEARNING) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 683.5 Tm (Ferramenta: ChatGPT.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 661.3 Tm (Objetivo da consulta: Compreender conceitos relacionados à classificação supervisionada, às) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 646.1 Tm (métricas de avaliação e às diferenças entre acurácia, precisão, recall e F1-score.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 623.9 Tm (Descrição do apoio: A ferramenta foi utilizada como recurso de consulta para esclarecer a) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 608.7 Tm (finalidade das métricas e compreender como elas auxiliam na avaliação de classificadores. As) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 593.5 Tm (explicações tiveram caráter conceitual, contribuindo para o estudo dos procedimentos utilizados na) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 578.3 Tm (TED 03.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 556.1 Tm (Limite da utilização: A consulta conceitual não representa, por si só, a execução experimentos ou) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 540.9 Tm (a validação dos resultados do projeto.) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 518.7 Tm (EVIDÊNCIA 02 – CONSULTA SOBRE PROCEDIMENTOS E SINTAXE EM PYTHON) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 492.2 Tm (Ferramenta: ChatGPT.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 470.0 Tm (Objetivo da consulta: Esclarecer dúvidas sobre a utilização de recursos das bibliotecas Pandas e) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 454.8 Tm (Scikit-learn durante a preparação dos dados e a estruturação dos procedimentos de modelagem.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 432.6 Tm (Descrição do apoio: As consultas técnicas tiveram como propósito compreender a utilização de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 417.4 Tm (funções, parâmetros e estruturas de código relacionadas ao treinamento e à avaliação de modelos.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 402.2 Tm (Esse apoio permitiu consultar a sintaxe das bibliotecas e identificar aspectos que exigiam atenção) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 387.0 Tm (durante a execução.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 364.8 Tm (Limite da utilização: As orientações técnicas não substituem a execução do notebook nem) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 349.6 Tm (comprovam que determinado procedimento foi realizado corretamente.) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 327.4 Tm (EVIDÊNCIA 03 – CONFERÊNCIA DA ORGANIZAÇÃO DO DOCUMENTO TÉCNICO) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 300.9 Tm (Ferramenta: ChatGPT.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 278.7 Tm (Objetivo da consulta: Auxiliar na conferência da estrutura do Documento Técnico v3.0,) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 263.5 Tm (considerando a continuidade das TEDs anteriores e os requisitos acadêmicos informados para a) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 248.3 Tm (terceira etapa.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 226.1 Tm (Descrição do apoio: A ferramenta foi consultada para identificar possíveis problemas de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 210.9 Tm (organização, inconsistências na apresentação das seções e pontos que precisavam de maior) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 195.7 Tm (clareza. O apoio concentrou-se na revisão da estrutura documental, sem que essa conferência) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 180.5 Tm (fosse considerada uma validação científica automática.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 158.3 Tm (Limite da utilização: A conferência textual não substitui a comparação do documento com o) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 143.1 Tm (notebook executado, as métricas registradas e os critérios estabelecidos pelo professor.) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 4660 >>
+stream
+0.67 0.14 0.18 rg 67 762 465 2 re f
+BT /F2 26.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 70.0 786.0 Tm (UB) Tj ET
+BT /F2 18.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 124.0 788.0 Tm (UNIBALSAS) Tj ET
+BT /F1 10.0 Tf 0.52 0.25 0.29 rg 1 0 0 1 124.0 774.0 Tm (Centro Universitário) Tj ET
+0.68 0.15 0.18 rg 66 744 466 16 re f
+BT /F2 9.1 Tf 1 1 1 rg 1 0 0 1 211.0 749.0 Tm (ANÁLISE E DESENVOLVIMENTO DE SISTEMAS) Tj ET
+0.68 0.15 0.18 RG 1.2 w 92 56 m 526 56 l S
+BT /F1 7.1 Tf 0.40 0.40 0.40 rg 1 0 0 1 273.0 41.0 Tm (Centro Universitário de Balsas   |   Big Data e Ciência de Dados) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 710.0 Tm (EVIDÊNCIA 04 – REVISÃO DE FORMATAÇÃO E APRESENTAÇÃO ACADÊMICA) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 683.5 Tm (Ferramenta: Claude.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 661.3 Tm (Objetivo da consulta: Auxiliar na organização visual do Documento Técnico, observando o uso de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 646.1 Tm (fonte Arial, tamanho 12, espaçamento de 1,5, organização do sumário e distribuição adequada) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 630.9 Tm (dos elementos gráficos.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 608.7 Tm (Descrição do apoio: A ferramenta foi utilizada para orientar ajustes na apresentação do) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 593.5 Tm (documento, incluindo organização de títulos, parágrafos, tabelas, figuras e espaços destinados) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 578.3 Tm (às respectivas explicações. A finalidade foi melhorar a legibilidade e a padronização acadêmica,) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 563.1 Tm (preservando os dados e os resultados técnicos existentes.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 540.9 Tm (Limite da utilização: O trabalho de formatação não comprova a correção dos conteúdos) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 525.7 Tm (científicos, das métricas ou das conclusões do estudo.) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 503.5 Tm (EVIDÊNCIA 05 – CONSULTA SOBRE DIVISÃO DOS DADOS E VALIDAÇÃO CRUZADA) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 477.0 Tm (Ferramenta: ChatGPT.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 454.8 Tm (Objetivo da consulta: Compreender a função da separação entre treinamento e teste, da divisão) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 439.6 Tm (estratificada e da validação cruzada na avaliação de modelos de classificação.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 417.4 Tm (Descrição do apoio: A consulta foi direcionada ao entendimento de como esses procedimentos) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 402.2 Tm (contribuem para comparar modelos e reduzir avaliações excessivamente dependentes de uma única) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 387.0 Tm (divisão dos dados. Também foram discutidos cuidados para manter o conjunto de teste separado) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 371.8 Tm (durante a etapa de comparação.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 349.6 Tm (Limite da utilização: O esclarecimento metodológico não define automaticamente a estratégia do) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 334.4 Tm (projeto nem comprova a aplicação correta da divisão, da validação cruzada ou da prevenção de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 319.2 Tm (vazamento de dados.) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 297.0 Tm (EVIDÊNCIA 06 – ESCLARECIMENTO SOBRE CODIFICAÇÃO E PADRONIZAÇÃO DE VARIÁVEIS) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 270.5 Tm (Ferramenta: ChatGPT.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 248.3 Tm (Objetivo da consulta: Esclarecer a finalidade da codificação de variáveis categóricas, da) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 233.1 Tm (padronização de atributos numéricos e do uso de pipelines no Scikit-learn.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 210.9 Tm (Descrição do apoio: A ferramenta foi consultada para compreender diferenças entre variáveis) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 195.7 Tm (nominais e ordinais, o funcionamento de recursos como OneHotEncoder e StandardScaler e os) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 180.5 Tm (cuidados necessários para aplicar transformações sem utilizar informações do conjunto de teste) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 165.3 Tm (durante o treinamento.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 143.1 Tm (Limite da utilização: A explicação de técnicas de pré-processamento não constitui autorização para) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 127.9 Tm (alterar variáveis, excluir dados ou aplicar transformações sem justificativa e conferência dos) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 112.7 Tm (resultados.) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 4495 >>
+stream
+0.67 0.14 0.18 rg 67 762 465 2 re f
+BT /F2 26.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 70.0 786.0 Tm (UB) Tj ET
+BT /F2 18.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 124.0 788.0 Tm (UNIBALSAS) Tj ET
+BT /F1 10.0 Tf 0.52 0.25 0.29 rg 1 0 0 1 124.0 774.0 Tm (Centro Universitário) Tj ET
+0.68 0.15 0.18 rg 66 744 466 16 re f
+BT /F2 9.1 Tf 1 1 1 rg 1 0 0 1 211.0 749.0 Tm (ANÁLISE E DESENVOLVIMENTO DE SISTEMAS) Tj ET
+0.68 0.15 0.18 RG 1.2 w 92 56 m 526 56 l S
+BT /F1 7.1 Tf 0.40 0.40 0.40 rg 1 0 0 1 273.0 41.0 Tm (Centro Universitário de Balsas   |   Big Data e Ciência de Dados) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 710.0 Tm (EVIDÊNCIA 07 – CONSULTA SOBRE CARACTERÍSTICAS DE ALGORITMOS DE CLASSIFICAÇÃO) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 683.5 Tm (Ferramenta: ChatGPT.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 661.3 Tm (Objetivo da consulta: Compreender as características gerais de Regressão Logística, Árvore de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 646.1 Tm (Decisão e Random Forest e os critérios que podem ser considerados na comparação de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 630.9 Tm (classificadores.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 608.7 Tm (Descrição do apoio: O apoio consistiu em explicações sobre diferenças de funcionamento,) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 593.5 Tm (capacidade de interpretação, comportamento diante das variáveis e possíveis limitações dos) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 578.3 Tm (algoritmos. Essas informações serviram como referência conceitual para a leitura dos procedimentos) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 563.1 Tm (descritos na TED 03.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 540.9 Tm (Limite da utilização: A consulta não substitui a justificativa metodológica do trabalho, não) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 525.7 Tm (seleciona o classificador final e não comprova superioridade de nenhum algoritmo sem resultados) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 510.5 Tm (observados.) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 488.3 Tm (EVIDÊNCIA 08 – CONFERÊNCIA DA APRESENTAÇÃO DAS SAÍDAS DE AVALIAÇÃO) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 461.8 Tm (Ferramenta: ChatGPT.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 439.6 Tm (Objetivo da consulta: Auxiliar na conferência da apresentação das métricas, da matriz de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 424.4 Tm (confusão e do relatório por classe no Documento Técnico e no notebook.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 402.2 Tm (Descrição do apoio: A ferramenta foi consultada para esclarecer como distinguir os resultados da) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 387.0 Tm (validação cruzada daqueles obtidos no conjunto de teste e como organizar a exposição das) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 371.8 Tm (saídas de avaliação de forma compreensível e coerente.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 349.6 Tm (Limite da utilização: A conferência de apresentação não equivale à reprodução dos experimentos,) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 334.4 Tm (não cria métricas e não garante a interpretação científica dos erros e acertos do classificador.) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 312.2 Tm (EVIDÊNCIA 09 – CONSULTA SOBRE LIMITAÇÕES, VIESES E PRIVACIDADE DOS DADOS) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 285.7 Tm (Ferramenta: ChatGPT.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 263.5 Tm (Objetivo da consulta: Compreender cuidados relacionados à representatividade da base, aos) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 248.3 Tm (possíveis vieses em modelos preditivos e à proteção de informações acadêmicas no contexto do) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 233.1 Tm (StudyTrack IA.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 210.9 Tm (Descrição do apoio: A consulta teve caráter explicativo e abordou aspectos que podem limitar a) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 195.7 Tm (generalização de um modelo, a necessidade de cautela na interpretação das previsões e a) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 180.5 Tm (importância de utilizar dados públicos ou devidamente anonimizados.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 158.3 Tm (Limite da utilização: As orientações não caracterizam auditoria de vieses, avaliação jurídica de) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 143.1 Tm (conformidade com a LGPD ou comprovação de que o modelo é adequado para decisões) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 127.9 Tm (individuais.) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Length 2898 >>
+stream
+0.67 0.14 0.18 rg 67 762 465 2 re f
+BT /F2 26.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 70.0 786.0 Tm (UB) Tj ET
+BT /F2 18.0 Tf 0.66 0.13 0.17 rg 1 0 0 1 124.0 788.0 Tm (UNIBALSAS) Tj ET
+BT /F1 10.0 Tf 0.52 0.25 0.29 rg 1 0 0 1 124.0 774.0 Tm (Centro Universitário) Tj ET
+0.68 0.15 0.18 rg 66 744 466 16 re f
+BT /F2 9.1 Tf 1 1 1 rg 1 0 0 1 211.0 749.0 Tm (ANÁLISE E DESENVOLVIMENTO DE SISTEMAS) Tj ET
+0.68 0.15 0.18 RG 1.2 w 92 56 m 526 56 l S
+BT /F1 7.1 Tf 0.40 0.40 0.40 rg 1 0 0 1 273.0 41.0 Tm (Centro Universitário de Balsas   |   Big Data e Ciência de Dados) Tj ET
+BT /F2 10.7 Tf 0 0 0 rg 1 0 0 1 72.0 710.0 Tm (EVIDÊNCIA 10 – CONFERÊNCIA DA ORGANIZAÇÃO DOS ARQUIVOS DO PROJETO) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 683.5 Tm (Ferramenta: ChatGPT.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 661.3 Tm (Objetivo da consulta: Auxiliar na organização e na conferência da documentação disponível para) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 646.1 Tm (a TED 03, incluindo notebook, Documento Técnico, README, registros de avaliação e declaração) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 630.9 Tm (de uso de IA.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 608.7 Tm (Descrição do apoio: A ferramenta foi consultada para confrontar a relação de arquivos e seções) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 593.5 Tm (do projeto com os itens solicitados na atividade, apontando aspectos de organização e) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 578.3 Tm (apresentação que mereciam atenção. A finalidade foi apoiar a revisão documental, sem substituir a) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 563.1 Tm (verificação dos arquivos reais.) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 540.9 Tm (Limite da utilização: A análise da organização não comprova, isoladamente, a execução do) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 525.7 Tm (notebook, o funcionamento do código, a publicação de todos os arquivos ou o atendimento) Tj ET
+BT /F1 10.2 Tf 0 0 0 rg 1 0 0 1 72.0 510.5 Tm (integral aos critérios de avaliação.) Tj ET
+BT /F2 11.8 Tf 0 0 0 rg 1 0 0 1 72.0 488.3 Tm (Responsável\(is\) pela atividade) Tj ET
+BT /F1 10.1 Tf 0 0 0 rg 1 0 0 1 80.0 459.3 Tm (• CAIO VINÍCIUS LIMA SOARES) Tj ET
+BT /F1 10.1 Tf 0 0 0 rg 1 0 0 1 80.0 442.0 Tm (• DAVID RODRIGUES COSTA) Tj ET
+BT /F1 10.1 Tf 0 0 0 rg 1 0 0 1 80.0 424.7 Tm (• FRANCISCO WESLEY DE SOUZA DIAS) Tj ET
+BT /F1 10.1 Tf 0 0 0 rg 1 0 0 1 80.0 407.4 Tm (• PEDRO HENRIQUE GUEDES) Tj ET
+0.75 0.75 0.75 RG 0.5 w 72 387.1 m 524 387.1 l S
+BT /F1 8.5 Tf 0 0 0 rg 1 0 0 1 72.0 372.1 Tm (*Transcrição textual da declaração de seis páginas fornecida pela equipe, sem as imagens de cabeçalho e rodapé.) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 1 0 0 1 72.0 356.8 Tm (Os registros comprobatórios das consultas, caso exigidos na avaliação, devem corresponder às conversas reais; este) Tj ET
+BT /F1 8.5 Tf 0 0 0 rg 1 0 0 1 72.0 341.5 Tm (documento não os substitui.*) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+15 0 obj
+<< /Title (Declaração de uso de Inteligência Artificial - TED 03 - StudyTrack IA) /Author (Equipe StudyTrack IA) /Subject (Reprodução textual do documento de declaração de uso restrito de IA) >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000148 00000 n 
+0000000245 00000 n 
+0000000347 00000 n 
+0000004550 00000 n 
+0000004692 00000 n 
+0000009184 00000 n 
+0000009326 00000 n 
+0000014037 00000 n 
+0000014180 00000 n 
+0000018727 00000 n 
+0000018871 00000 n 
+0000021821 00000 n 
+0000021965 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R /Info 15 0 R >>
+startxref
+22176
+%%EOF
