@@ -22,11 +22,10 @@ Este repositório reúne a continuidade da disciplina **Big Data e Ciências de 
 | TED 02 | Inspeção, tratamento, análise exploratória, estatísticas e visualizações. | [PDF da TED 02](docs/TED02.pdf) |
 | TED 03 | Classificação multiclasse de desempenho, comparação de classificadores e avaliação final. | [PDF final da TED 03 — 21 páginas](docs/TED03.pdf) |
 
-**Declaração de uso de IA da TED 03:** [versão em PDF](docs/Declaracao_Uso_IA_TED03.pdf) e [transcrição em Markdown](docs/Declaracao_Uso_IA_TED03.md). O PDF publicado foi reconstituído a partir do texto do documento de seis páginas fornecido pela equipe; não é uma cópia binária do original.
+**Declaração de uso de IA da TED 03:** [versão em PDF](docs/Declaracao_Uso_IA_TED03.pdf) e [transcrição em Markdown](docs/Declaracao_Uso_IA_TED03.md). O PDF publicado foi reconstituído a partir do texto do documento.
 
 **Base utilizada:** [Higher Education Students Performance Evaluation — UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/856/higher+education+students+performance+evaluation). O conjunto contém 145 observações e, na versão de modelagem, 31 preditoras e a variável-alvo `grade` com oito classes. A fonte original possui licença CC BY 4.0.
 
-O estudo é **retrospectivo**, não uma validação de previsão antecipada de notas nem do sistema de priorização de tarefas do MVP.
 
 ## Organização dos arquivos
 
@@ -124,7 +123,6 @@ O enunciado da disciplina solicita o Documento Técnico v3.0 acumulativo, os có
 
 O PR nº 1 foi integrado à `main` em 02/11/2026. O repositório é público e o endereço para informar no Portal do Aluno é **https://github.com/Francisco-alt-coder/StudyTrack_IA**.
 
-**Limites da conferência:** os resultados publicados correspondem à reprodução local registrada, sem comprovação de execução no Google Colab. O enunciado encaminhado não determina execução obrigatória no Colab. A declaração de IA disponível é uma reprodução textual do documento fornecido, e não substitui eventuais capturas ou links de histórico que venham a ser exigidos em orientações complementares. O envio no Portal do Aluno não é realizado pelo repositório.
 
 ## Continuidade e histórico
 
